@@ -11,8 +11,11 @@ Please read the Bulma documentation before modifying the website code.
 - [ ] About page
 - [ ] Blogs page
 - [ ] Join us form component
+- [ ] Teams component
 
 ## Useful links
 * [Bulma Documentation](https://bulma.io/documentation)
-* [Small landing page](https://www.youtube.com/watch?v=MGC9s4bZQ0Y&t=248s).
-* [Short 1 Hour Course](https://scrimba.com/g/gbulma)
+* [Small landing page for inspiration](https://www.youtube.com/watch?v=MGC9s4bZQ0Y&t=248s).
+* [Short 1 Hour Course on Bulma CSS](https://scrimba.com/g/gbulma)
+* [Website Source code for Bulma inspiration](https://github.com/app-generator/bulmaplay)
+* This is the *[Markdown Guide for formatting README files for beginners](https://www.markdownguide.org)*.
