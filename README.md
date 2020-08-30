@@ -1,5 +1,5 @@
 # Tech Club Website
-A website to show, inform and update people about the tech club.
+The main website of the tech club to inform people about various activities and missions.
 
 ## Code Description
 Coding in HTML with the powers of [Bulma CSS](https://bulma.io/documentation).
@@ -14,6 +14,7 @@ Mark the following checkpoints after their completion
 - [ ] Join us form component
 - [ ] Teams component
 - [ ] Level component
+- [ ] Contact/Reach out to us component
 
 ## Useful links
 * [Bulma Documentation](https://bulma.io/documentation)
