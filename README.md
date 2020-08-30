@@ -1,5 +1,5 @@
 # Tech Club Website
-The main website of the tech club to inform people about various activities and missions of the club. Developed by the Design Team and maintained by Tech Club.
+The main website of the tech club to inform people about various activities and missions of the club.
 
 ## Description
 
@@ -9,6 +9,9 @@ Please go through the [Bulma CSS documentation](https://bulma.io/documentation) 
 
 ### Stage
 Implementation stage where we are finishing various components and shipping them to backend for integration.
+
+### Contributors
+TBC
 
 ## Task list
 Mark the following checkpoints after their completion. After completion of certain pages, we will ship those pages to the backend for integration.
