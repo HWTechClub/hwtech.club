@@ -8,7 +8,7 @@ Coding in HTML with the powers of [Bulma CSS](https://bulma.io).
 Please read the [Bulma documentation](https://bulma.io/documentation) before adding/modifying the website code.
 
 ### Stage
-Implementation stage. 
+Implementation stage where we are finishing various components and shipping them to backend for integration.
 
 ## Task list
 Mark the following checkpoints after their completion. After completion of certain pages, we will ship those pages to the backend for integration.
