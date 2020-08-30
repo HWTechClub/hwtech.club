@@ -1,5 +1,5 @@
 # Tech Club Website
-The main website of the tech club to inform people about various activities and missions.
+The main website of the tech club to inform people about various activities and missions of the club. Developed by the Design Team and maintained by Tech Club.
 
 ## Description
 
