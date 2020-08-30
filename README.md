@@ -5,7 +5,7 @@ The main website of the tech club to inform people about various activities and 
 
 ### Code
 Coding in HTML with the powers of [Bulma CSS](https://bulma.io).
-Please read the [Bulma documentation](https://bulma.io/documentation) before adding/modifying the website code.
+Please go through the [Bulma CSS documentation](https://bulma.io/documentation) to make you are following best code practices before adding or modifying the website code.
 
 ### Stage
 Implementation stage where we are finishing various components and shipping them to backend for integration.
