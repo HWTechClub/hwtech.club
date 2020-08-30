@@ -11,6 +11,7 @@ Mark the following checkpoints after their completion
 - [ ] 404 page
 - [ ] About page
 - [ ] Blogs page
+- [ ] Blogs content page (From scrimba -- link below)
 - [ ] Join us form component
 - [ ] Teams component
 - [ ] Level component
