@@ -9,10 +9,10 @@ Please read the Bulma documentation before modifying the website code.
 Mark the following checkpoints after their completion
 - [x] Home
 - [ ] 404 page
-- [ ] About page
-- [ ] Blogs page
-- [ ] Blogs content page (From scrimba -- link below)
-- [ ] Join us form component
+- [ ] About page (rk-92)
+- [ ] Blogs page (harini)
+- [ ] Blogs content page (From scrimba -- link below) (harini)
+- [ ] Join us form component 
 - [ ] Teams component
 - [ ] Level component
 - [ ] Contact/Reach out to us component
