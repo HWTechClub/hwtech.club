@@ -5,10 +5,10 @@ The main website of the tech club to inform people about various activities and 
 
 ### Code
 Coding in HTML with the powers of [Bulma CSS](https://bulma.io).
-Please go through the [Bulma CSS documentation](https://bulma.io/documentation) to make you are following best code practices before adding or modifying the website code.
+Please go through the [Bulma CSS documentation](https://bulma.io/documentation) to make sure you are following best code practices before adding or modifying the website code.
 
 ### Stage
-Implementation stage where we are finishing various components and shipping them to backend for integration.
+Implementation stage where we are finishing various components/pages and shipping them to backend for integration.
 
 ### Contributors
 TBC
