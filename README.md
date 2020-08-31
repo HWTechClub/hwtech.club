@@ -16,7 +16,7 @@ TBC
 ## Task list
 Mark the following checkpoints after their completion. After completion of certain pages, we will ship those pages to the backend for integration.
 - [x] Home
-- [ ] 404 page
+- [ ] 404 page (amogh)
 - [ ] About page (rk-92)
 - [ ] Blogs page (harini)
 - [ ] Blogs content page (From scrimba -- link below) (harini)
@@ -24,6 +24,7 @@ Mark the following checkpoints after their completion. After completion of certa
 - [ ] Teams component
 - [ ] Level component
 - [ ] Contact/Reach out to us component
+- [x] Coming soon feature page
 
 ## Useful links
 * VS Code Extension: [Bulma](https://marketplace.visualstudio.com/items?itemName=demijollamaxime.bulma) by Maxime de Mijolla.
