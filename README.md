@@ -16,7 +16,7 @@ TBC
 ## Task list
 Mark the following checkpoints after their completion. After completion of certain pages, we will ship those pages to the backend for integration.
 - [x] Home
-- [ ] 404 page (amogh)
+- [x] 404 page (amogh)
 - [ ] About page (rk-92)
 - [ ] Blogs page (harini)
 - [ ] Blogs content page (From scrimba -- link below) (harini)
