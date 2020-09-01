@@ -20,10 +20,10 @@ Mark the following checkpoints after their completion. After completion of certa
 - [ ] About page (rk-92)
 - [ ] Blogs page (harini)
 - [ ] Blogs content page (From scrimba -- link below) (harini)
-- [ ] Join us form component 
+- [ ] Join us form component (harini)
 - [ ] Teams component
 - [ ] Level component
-- [ ] Contact/Reach out to us component
+- [ ] Contact/Reach out to us component (harini)
 - [x] Coming soon feature page
 
 ## Useful links
