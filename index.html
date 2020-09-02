@@ -4,20 +4,28 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
+    <title>Club For Tech | Heriot-Watt Tech Club</title>
     <!-- <link rel="stylesheet" href="css/debug.css"> -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
     <style>
         .hero {
             background: url("assets/bg4.jpg") center / cover;
             background-blend-mode: soft-light;
+        }
+        
+        * {
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: -.02rem;
         }
     </style>
 
 </head>
 
 <body>
+    <!-- Announcement -->
+
     <!-- Hero section -->
     <section class="hero is-black is-dark is-fullheight">
         <!-- Hero head: will stick at the top -->
@@ -62,17 +70,20 @@
         <!-- Hero content: will be in the middle -->
         <div class="hero-body">
             <div class="container has-text-centered">
-                <h1 class="title is-size-1 has-text-weight-bold">
+                <h1 class="title has-text-weight-bold" style="letter-spacing: -0.09rem; font-size: 3.4rem;">
                     A club for design and <br> code enthusiasts
                 </h1>
                 <h2 class="paragraph">
                     Student-run organization that aims to empower students by bringing <br> cutting-edge technology, new ideas, and top tech-innovators to campus.
                 </h2>
-                <div class="buttons is-centered" style="padding-top: 30px;">
-                    <button class="button is-warning has-text-weight-bold">Become a Member</button>
-                    <button class="button is-white is-outlined has-text-weight-semibold">Read more</button>
+                <div class="buttons is-centered pt-5">
+                    <button class="button is-medium is-success has-text-weight-semibold" style="font-family: 'Montserrat', sans-serif;">Join the Tech Club</button>
+                    <!-- <a href="#">
+                        <h2 class="subtitle is-white has-text-weight-semibold is-size-6 pl-4" style="font-family: 'Montserrat', sans-serif;">Learn More</h2>
+                    </a> -->
+                    <button class="button is-medium is-white is-outlined has-text-weight-semibold" style="font-family: 'Montserrat', sans-serif;">Learn more</button>
                 </div>
-                <div class="columns is-gapless is-centered">
+                <div class="columns is-gapless is-centered pt-3">
                     <span class="icon is-large">
               <i class="fab fa-lg fa-linkedin-in"></i>
             </span>
@@ -89,6 +100,16 @@
                 <i class="fab fa-lg fa-github"></i>
               </span>
                 </div>
+            </div>
+        </div>
+
+        <div class="hero-foot">
+            <div class="notification has-text-centered is-warning">
+                Become a member today. Applications to the tech club are <strong>open</strong> until 12th September
+                <!-- <br> -->
+                <a href="#">
+                    <strong>Apply here</strong>
+                </a>
             </div>
         </div>
 
@@ -109,7 +130,7 @@
         <div class="container">
 
             <div class="title-wrapper has-text-centered">
-                <h2 class="title is-2 has-text-weight-semibold">We're doing some fun things</h2>
+                <h2 class="title is-2 has-text-weight-bold">We're doing fun things</h2>
                 <h3 class="subtitle is-muted mt-1">Weekly sessions, competitions and lots of projects to support your interests </h3>
                 <div class="divider is-centered"></div>
             </div>
@@ -117,19 +138,16 @@
         <div class="container pt-6">
             <div class="columns is-8">
                 <div class="column">
-
                     <h1 class="title is-size-3 has-text-info">Workshops</h1>
                     <p class="is-size-5">
                         We hold various workshops on various tech topics such as web development, UI/UX design, ethical hacking and more!
                     </p>
                 </div>
                 <div class="column">
-
                     <h1 class="title is-size-3 has-text-primary">Projects</h1>
                     <p class=" is-size-5 ">
                         We love doing projects and this is where the heart of our community lies! From stuff ranging from ML Chatbots to designing website generators.
                     </p>
-
                 </div>
                 <div class="column ">
                     <h1 class="title is-size-3 has-text-danger">Competitions</h1>
