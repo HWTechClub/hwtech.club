@@ -18,15 +18,17 @@ Mark the following checkpoints after their completion. After completion of certa
 - [x] Home
 - [x] 404 page (amogh)
 - [x] Contact/Reach out to us component (harini)
-- [x] Coming soon feature page
+- [x] Coming soon feature page (amogh)
 - [x] Blogs page (harini)
 - [x] Blogs content page (From scrimba -- link below) (harini)
 - [x] Join us form component (harini)
 - [ ] About page (rk-92)
-- [ ] Teams component
-- [ ] Level component
-- [ ] Workshops cards
-- [ ] Submit Workshop idea section
+- [ ] Teams component (rk-92)
+- [ ] Level component (rk-92)
+- [ ] Workshops cards (harini)
+- [ ] Submit Workshop idea section (harini)
+
+Optional:
 - [ ] Shadow hover effect on cards ([Like cards on this](https://www.oneprofile.page/))
 
 ## Useful links
