@@ -4,14 +4,14 @@ The main website of the tech club to inform people about various activities and 
 ## Description
 
 ### Code
-Coding in HTML with the :wizard: powers of [Bulma CSS](https://bulma.io).
+Coding in HTML with the :crystal_ball: powers of [Bulma CSS](https://bulma.io).
 Please go through the [Bulma CSS documentation](https://bulma.io/documentation) to make sure you are following best code practices before adding or modifying the website code.
 
 ### Stage
 Implementation stage where we are finishing various components/pages and shipping them to backend for integration.
 
 ### Contributors
-TBC
+Amogh Srivastava, Ramsha Khan and Harini Balamurugan. 
 
 ## Task list
 Mark the following checkpoints after their completion. After completion of certain pages, we will ship those pages to the backend for integration.
