@@ -4,7 +4,7 @@ The main website of the tech club to inform people about various activities and 
 ## Description
 
 ### Code
-Coding in HTML with the powers of [Bulma CSS](https://bulma.io).
+Coding in HTML with the :wizard: powers of [Bulma CSS](https://bulma.io).
 Please go through the [Bulma CSS documentation](https://bulma.io/documentation) to make sure you are following best code practices before adding or modifying the website code.
 
 ### Stage
@@ -17,14 +17,17 @@ TBC
 Mark the following checkpoints after their completion. After completion of certain pages, we will ship those pages to the backend for integration.
 - [x] Home
 - [x] 404 page (amogh)
-- [ ] About page (rk-92)
+- [x] Contact/Reach out to us component (harini)
+- [x] Coming soon feature page
 - [x] Blogs page (harini)
 - [x] Blogs content page (From scrimba -- link below) (harini)
 - [x] Join us form component (harini)
+- [ ] About page (rk-92)
 - [ ] Teams component
 - [ ] Level component
-- [x] Contact/Reach out to us component (harini)
-- [x] Coming soon feature page
+- [ ] Workshops cards
+- [ ] Submit Workshop idea section
+- [ ] Shadow hover effect on cards
 
 ## Useful links
 * VS Code Extension: [Bulma](https://marketplace.visualstudio.com/items?itemName=demijollamaxime.bulma) by Maxime de Mijolla.
