@@ -8,6 +8,23 @@
     <!-- <link rel="stylesheet" href="css/debug.css"> -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+      .hero {
+            background: url("assets/bg4.jpg") center / cover;
+            background-blend-mode: soft-light;
+        }
+
+      #yt {
+          background: url("assets/bgyt.gif") center / cover;
+          background-blend-mode: soft-light;
+      }
+
+        * {
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: -.02rem;
+        }
+    </style>
 </head>
 
 
@@ -104,24 +121,22 @@
     </section>
 
 
-    <!-- Share Experience -->
-    <section class="section is-medium has-background-black">
+    <!-- Youtube teaser -->
+    <section id="yt" class="section is-medium has-background-black">
         <div class="container ">
 
             <div class="title-wrapper has-text-centered">
-                <h2 class="title is-2 has-text-weight-semibold has-text-info">We love creating and sharing our expertise in technology and design</h2>
-                <h3 class="subtitle is-muted mt-1 has-text-white">We are happy to share and document our work, our expertise and our hidden talent for the world to see. We are fully open source completely non profit led fully by a group of students.</h3>
+                <h2 class="title is-1 has-text-weight-semibold has-text-link">We love creating and sharing our expertise in technology and design</h2>
+                <h3 class="subtitle is-5 is-muted mt-1 has-text-white">We are happy to share and document our work, our expertise and our hidden talent for the world to see. <br>We are fully open source completely non profit led fully by a group of students.</h3>
                 <div class="container" style="padding-top: 50px;">
-                    <div class="columns is-gapless  is-vcentered has-background-info">
+                    <div class="columns is-gapless  is-vcentered is-centered">
+                        
                         <div class="column ">
-                            <h2 class="title is-4 has-text-left" style="padding-left: 20px">
-                                A small teaser on how we did activities at the club during the quarantine
-                            </h2>
-                        </div>
-                        <div class="column ">
-                            <figure class="image">
-                                <img src="assets/bg4.jpg">
-                            </figure>
+                            <video width="900"  controls>
+                              <source src="assets/Our New Logo transition.mp4" type="video/mp4">
+                              <!-- <source src="movie.ogg" type="video/ogg"> -->
+                            Your browser does not support the video tag.
+                            </video>
                         </div>
                     </div>
 
@@ -171,18 +186,16 @@
 
 
             </div>
-
-
         </div>
     </section>
-
-
-    <section class="section has-background-info">
-        <div class="container has-text-centered py-4">
-            <h2 class="title has-text-white">The Team</h2>
-            <p class="subtitle mb-6 has-text-white" style="padding-top: 10px;"> Meet the passionate crew that runs this show.</p>
+    
+    <!-- The Team -->
+    <section class="section" >
+        <div class="container has-text-centered py-4" id="team">
+            <h2 class="title has-text-link">The Team</h2>
+            <p class="subtitle mb-6 has-text-black" style="padding-top: 10px;"> Meet the passionate crew that runs this show.</p>
             <div class="columns is-centered is-multiline py-5">
-                <div class="column is-6 is-3-widescreen mb-6">
+                <div class="column is-6 is-3-widescreen mb-6" id="member">
                     <div class="level">
                         <div class="level-item">
                             <figure class="image is-128x128"><img class="is-rounded" src="assets/amogh.JPG" alt=""></figure>
@@ -192,20 +205,20 @@
                     <p class="subtitle is-6">CEO</p>
                     <div class="columns is-gapless is-centered">
                         <span class="icon is-large">
-                  <i class="fab fa-lg fa-linkedin-in"></i>
-                </span>
+                          <a href="#"><i class="fab fa-lg fa-linkedin-in"></i></a>
+                        </span>
                         <span class="icon is-large">
-                  <i class="fab fa-lg fa-instagram"></i>
-                </span>
+                          <a href="#"><i class="fab fa-lg fa-instagram"></i></a>
+                        </span>
                         <span class="icon is-large">
-                  <i class="fab fa-lg fa-github"></i>
-                </span>
+                          <a href="#"><i class="fab fa-lg fa-github"></i></a>
+                        </span>
                         <span class="icon is-large">
-                  <i class="fab fa-lg fa-twitter"></i>
-                </span>
+                          <a href="#"><i class="fab fa-lg fa-twitter"></i></a>
+                        </span>
                     </div>
                 </div>
-                <div class="column is-6 is-3-widescreen mb-6">
+                <div class="column is-6 is-3-widescreen mb-6" id="member">
                     <div class="level">
                         <div class="level-item">
                             <figure class="image is-128x128"><img class="is-rounded" src="assets/amogh.JPG" alt=""></figure>
@@ -214,21 +227,21 @@
                     <h5 class="title is-5">Jared Dunn</h5>
                     <p class="subtitle is-6">COO</p>
                     <div class="columns is-gapless is-centered">
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-linkedin-in"></i>
-                </span>
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-instagram"></i>
-                </span>
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-github"></i>
-                </span>
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-twitter"></i>
-                </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-linkedin-in"></i></a>
+                      </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-instagram"></i></a>
+                      </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-github"></i></a>
+                      </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-twitter"></i></a>
+                      </span>
                     </div>
                 </div>
-                <div class="column is-6 is-3-widescreen mb-6">
+                <div class="column is-6 is-3-widescreen mb-6" id="member">
                     <div class="level">
                         <div class="level-item">
                             <figure class="image is-128x128"><img class="is-rounded" src="assets/amogh.JPG" alt=""></figure>
@@ -237,21 +250,21 @@
                     <h5 class="title is-5">Monica Hall</h5>
                     <p class="subtitle is-6">CFO</p>
                     <div class="columns is-gapless is-centered">
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-linkedin-in"></i>
-                </span>
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-instagram"></i>
-                </span>
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-github"></i>
-                </span>
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-twitter"></i>
-                </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-linkedin-in"></i></a>
+                      </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-instagram"></i></a>
+                      </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-github"></i></a>
+                      </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-twitter"></i></a>
+                      </span>
                     </div>
                 </div>
-                <div class="column is-6 is-3-widescreen mb-6">
+                <div class="column is-6 is-3-widescreen mb-6" id="member">
                     <div class="level">
                         <div class="level-item">
                             <figure class="image is-128x128"><img class="is-rounded" src="assets/amogh.JPG" alt=""></figure>
@@ -260,21 +273,21 @@
                     <h5 class="title is-5">Erlich Bachman</h5>
                     <p class="subtitle is-6">Marketing Manager</p>
                     <div class="columns is-gapless is-centered">
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-linkedin-in"></i>
-                </span>
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-instagram"></i>
-                </span>
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-github"></i>
-                </span>
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-twitter"></i>
-                </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-linkedin-in"></i></a>
+                      </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-instagram"></i></a>
+                      </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-github"></i></a>
+                      </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-twitter"></i></a>
+                      </span>
                     </div>
                 </div>
-                <div class="column is-6 is-3-widescreen mb-6">
+                <div class="column is-6 is-3-widescreen mb-6" id="member">
                     <div class="level">
                         <div class="level-item">
                             <figure class="image is-128x128"><img class="is-rounded" src="assets/amogh.JPG" alt=""></figure>
@@ -283,21 +296,21 @@
                     <h5 class="title is-5">Bertram Gilfoyle</h5>
                     <p class="subtitle is-6">Chief Systems Architect</p>
                     <div class="columns is-gapless is-centered">
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-linkedin-in"></i>
-                </span>
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-instagram"></i>
-                </span>
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-github"></i>
-                </span>
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-twitter"></i>
-                </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-linkedin-in"></i></a>
+                      </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-instagram"></i></a>
+                      </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-github"></i></a>
+                      </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-twitter"></i></a>
+                      </span>
                     </div>
                 </div>
-                <div class="column is-6 is-3-widescreen mb-6">
+                <div class="column is-6 is-3-widescreen mb-6" id="member">
                     <div class="level">
                         <div class="level-item">
                             <figure class="image is-128x128"><img class="is-rounded" src="assets/amogh.JPG" alt=""></figure>
@@ -306,21 +319,21 @@
                     <h5 class="title is-5">Dinesh Chugtai</h5>
                     <p class="subtitle is-6">Senior Programmer</p>
                     <div class="columns is-gapless is-centered">
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-linkedin-in"></i>
-                </span>
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-instagram"></i>
-                </span>
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-github"></i>
-                </span>
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-twitter"></i>
-                </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-linkedin-in"></i></a>
+                      </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-instagram"></i></a>
+                      </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-github"></i></a>
+                      </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-twitter"></i></a>
+                      </span>
                     </div>
                 </div>
-                <div class="column is-6 is-3-widescreen mb-6">
+                <div class="column is-6 is-3-widescreen mb-6" id="member">
                     <div class="level">
                         <div class="level-item">
                             <figure class="image is-128x128"><img class="is-rounded" src="assets/amogh.JPG" alt=""></figure>
@@ -329,115 +342,70 @@
                     <h5 class="title is-5">Nelson Bighetti</h5>
                     <p class="subtitle is-6">Majority Investor</p>
                     <div class="columns is-gapless is-centered">
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-linkedin-in"></i>
-                </span>
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-instagram"></i>
-                </span>
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-github"></i>
-                </span>
-                        <span class="icon is-large">
-                  <i class="fab fa-lg fa-twitter"></i>
-                </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-linkedin-in"></i></a>
+                      </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-instagram"></i></a>
+                      </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-github"></i></a>
+                      </span>
+                      <span class="icon is-large">
+                        <a href="#"><i class="fab fa-lg fa-twitter"></i></a>
+                      </span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <hr>
 
-    <section class="section has-background-black is-medium">
-        <div class="container is-vcentered">
-
-            <div class="container is-vcentered">
-                <div class="columns is-narrow is-centered">
-
-                    <div class="column is-narrow ">
-                        <div class="column">
-                            <h2 class="title is-3 has-text-primary">
-                                BLOGS
-                            </h2>
-                            <h1 class="title is-1 has-text-white">
-                                Read about our experiences and learnings
-                            </h1>
-
-                            <p class="subtitle has-text-white">
-                                We believe in sharing experiences and learnings to improve future decisions.
-                            </p>
-                            <div class="buttons ">
-                                <button class="button is-primary ">VIEW BLOGS</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="column is-3 ">
-                        <figure class="image ">
-                            <img src="assets/abt.png">
-                        </figure>
-                    </div>
-
-                </div>
-
-                <div class="columns is-narrow is-centered" style="padding-top: 100px;">
-
-                    <div class="column is-3 ">
-                        <figure class="image ">
-                            <img src="assets/abtpr.png">
-                        </figure>
-                    </div>
-                    <div class="column is-narrow ">
-                        <div class="column">
-                            <h2 class="title is-3 has-text-primary">
-                                PROJECTS
-                            </h2>
-                            <h1 class="title is-1 has-text-white">
-                                We’re upto some interesting things
-                            </h1>
-
-                            <p class="subtitle has-text-white">
-                                We have an awesome collection of projects than you can collab to and put on your CV.
-                            </p>
-                            <div class="buttons ">
-                                <button class="button is-primary ">VIEW PROJECTS</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <hr class="my-6"> -->
-                <div class="container is-vcentered" style="padding-top: 150px;">
-                    <div class="columns is-narrow is-centered">
-
-                        <div class="column is-narrow ">
-                            <div class="column">
-                                <h2 class="title is-3 has-text-primary">
-                                    WORKSHOPS
-                                </h2>
-                                <h1 class="title is-1 has-text-white">
-                                    Read about our experiences and learnings
-                                </h1>
-
-                                <p class="subtitle has-text-white">
-                                    We believe in sharing experiences and learnings to improve future decisions.
-                                </p>
-                                <div class="buttons ">
-                                    <button class="button is-primary ">VIEW BLOGS</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="column is-3 ">
-                            <figure class="image ">
-                                <img src="assets/abt.png">
-                            </figure>
-                        </div>
-
-                    </div>
+    <!-- Blogs, Projects, Workshops -->
+    <section class="section">
+    <div class="container has-text-centered py-4">
+    <h2 class="title mb-6">We’re upto some interesting things</h2>
+    <div class="columns">
+      <div class="column">
+        <div class="card ">
+          <div class="card-content">
+            <h3 class="title is-3 has-text-warning">Student Blogs</h3>
+            <img src="assets/index/tool.svg">
+            <p class="block">We believe in sharing experiences and learnings to improve future decisions. </p>
+            <h4 class="title is-spaced is-5 "><small>Read about our experiences and learnings</small></h4>
+            <button class="button is-spaced is-warning is-outlined" type="button">VIEW BLOGS</button>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-content">
+            <h3 class="title is-3 has-text-danger">Projects</h3>
+            <img src="assets/index/award.svg">
+            <p class="block">We have an awesome collection of projects than you can collab to and put on your CV. </p>
+            <h4 class="title is-spaced is-5"><small>Check out our interesting projects</small></h4>
+            <button class="button is-danger is-outlined" type="button">VIEW PROJECTS</button>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-content">
+            <h3 class="title is-3 has-text-primary">Workshops</h3>
+            <img src="assets/index/inbox.svg">
+            <p class="block">We host an array of free workshops, tutorials and live sessions on many topics.</p>
+            <h4 class="title is-spaced is-5"><small>Workshops for anyone</small></h4>
+            <button class="button is-primary is-outlined" type="button">VIEW WORKSHOPS</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
     </section>
 
 
 
-
+    <!-- Footer -->
     <footer class="footer ">
 
         <div class="content has-text-centered ">
