@@ -27,7 +27,7 @@ Mark the following checkpoints after their completion. After completion of certa
 - [ ] Level component
 - [ ] Workshops cards
 - [ ] Submit Workshop idea section
-- [ ] Shadow hover effect on cards
+- [ ] Shadow hover effect on cards ([Like cards on this](https://www.oneprofile.page/))
 
 ## Useful links
 * VS Code Extension: [Bulma](https://marketplace.visualstudio.com/items?itemName=demijollamaxime.bulma) by Maxime de Mijolla.
