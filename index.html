@@ -12,17 +12,21 @@
     <link rel="stylesheet" href="css/hover.css">
     <script src="js/main.js"></script>
     <style>
+        .card-img-top {
+            margin-top: -150px;
+        }
+        
+        .not-cards {
+            margin-top: 50px;
+        }
+        
         .rounded {
             border-radius: 20px;
             box-shadow: 0px 14px 23px -17px rgba(0, 0, 0, 0.075);
         }
         
-        .title {
+        .cus-title {
             color: #1B2DC8;
-        }
-        
-        .notification-card {
-            color: #000000;
         }
         
         .navbar-item {
@@ -146,40 +150,40 @@
     </section>
 
     <!-- What we do  -->
-    <section class="section is-medium">
+    <section class="section is-medium pb-6">
         <div class="container">
             <div class="title-wrapper has-text-centered ">
-                <h2 class="title is-2 has-text-weight-bold has-shadow ">What we're doing here</h2>
+                <h2 class="title cus-title is-2 has-text-weight-bold has-shadow ">Things we do</h2>
                 <h3 class="subtitle is-muted mt-1">Weekly workshops, competitions and lots of projects to support your interests </h3>
                 <div class="divider is-centered"></div>
             </div>
         </div>
-        <div class="container pt-6 has-text-centered " style="margin-top: 13rem;">
+        <div class="container pt-6 has-text-centered " style="margin-top: 3rem;">
             <div class="columns ">
                 <div class="column ">
-                    <div class="notification is-white rounded hvr-grow">
-                        <img src="assets/index/card3.png" style="margin-top: -15rem;">
+                    <div class="notification not-cards is-white rounded hvr-grow">
+                        <img src="assets/index/card3.png" class="card-img-top">
                         <h1 class="title is-size-3 has-text-weight-bold mt-3 ">Workshops</h1>
                         <p class="is-size-5 ">
-                            Attend workshops on various topics such as web development, UI/UX design, ethical hacking and more!
+                            Attend workshops on various topics such as web development, UI/UX and ethical hacking
                         </p>
                         <!-- <button class="button button-body is-danger mt-5 px-6 ">Learn More</button> -->
                     </div>
 
                 </div>
                 <div class="column">
-                    <div class="notification is-white rounded hvr-grow">
-                        <img src="assets/index/card1.png" style="margin-top: -15rem;">
+                    <div class="notification not-cards is-white rounded hvr-grow">
+                        <img src="assets/index/card1.png" class="card-img-top">
                         <h1 class="title is-size-3 has-text-weight-bold mt-3">Competitions</h1>
                         <p class="is-size-5 ">
-                            Participate in designathons to hackathons which will help sharpen your skills and competitiveness.
+                            Designathons to hackathons which will help sharpen your skills and competitiveness.
                         </p>
                         <!-- <button class="button button-body is-info mt-5 px-6 ">Learn More</button> -->
                     </div>
                 </div>
                 <div class="column ">
-                    <div class="notification is-white rounded hvr-grow">
-                        <img src="assets/index/card2.png" style="margin-top: -15rem;">
+                    <div class="notification not-cards is-white rounded hvr-grow">
+                        <img src="assets/index/card2.png" class="card-img-top">
                         <h1 class="title is-size-3 has-text-weight-bold mt-3 ">Projects</h1>
                         <p class=" is-size-5 ">
                             Take part in projects from creating chatbots to designing website generators.
@@ -195,8 +199,91 @@
     <section class="section">
         <div class="container ">
             <div class="title-wrapper has-text-centered ">
-                <h2 class="title is-2 has-text-weight-bold ">Our latest workshops</h2>
+                <h2 class="title cus-title is-2 has-text-weight-bold ">Our latest workshops</h2>
                 <h3 class="subtitle is-muted mt-1 ">Informative sessions on topics from design to hacking and operating systems</h3>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container ">
+            <div class="columns is-centered">
+                <!-- Row 1 -->
+                <div class="column is-one-third ">
+                    <div class="card rounded">
+                        <div class="card-image">
+                            <figure class="image is-16by9">
+                                <img src="https://bulma.io/images/placeholders/1280x960.png" class="rounded" alt="Placeholder image ">
+                            </figure>
+                        </div>
+                        <div class="card-content ">
+                            <div class="media ">
+                                <div class="container ">
+                                    <p class="subtitle is-6 cus-title">Amogh Srivastava &#124; 60 min</p>
+                                    <p class="title is-4 pt-2 has-text-weight-bold">Engineering Better Products with Design on Figma</p>
+                                    <h2 class="subtitle is-6 pt-2 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <button class="button button-body is-fullwidth is-success is-rounded has-text-weight-bold mx-3 my-3">Watch</button>
+                            <!-- <button class="button button-body is-fullwidth is-success is-medium is-rounded has-text-weight-bold mr-3 my-3">RECAP</button> -->
+                        </footer>
+                    </div>
+                </div>
+                <div class="column is-one-third ">
+                    <div class="card rounded">
+                        <div class="card-image">
+                            <figure class="image is-16by9">
+                                <img src="https://bulma.io/images/placeholders/1280x960.png" class="rounded" alt="Placeholder image ">
+                            </figure>
+                        </div>
+                        <div class="card-content ">
+                            <div class="media ">
+                                <div class="container ">
+                                    <p class="subtitle is-6 cus-title">Amogh Srivastava &#124; 60 min</p>
+                                    <p class="title is-4 pt-2 has-text-weight-bold">Engineering Better Products with Design on Figma</p>
+                                    <h2 class="subtitle is-6 pt-2 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <button class="button button-body is-fullwidth is-success is-rounded has-text-weight-bold mx-3 my-3">Watch</button>
+                            <!-- <button class="button button-body is-fullwidth is-success is-medium is-rounded has-text-weight-bold mr-3 my-3">RECAP</button> -->
+                        </footer>
+                    </div>
+                </div>
+                <div class="column is-one-third ">
+                    <div class="card rounded">
+                        <div class="card-image">
+                            <figure class="image is-16by9">
+                                <img src="https://bulma.io/images/placeholders/1280x960.png" class="rounded" alt="Placeholder image ">
+                            </figure>
+                        </div>
+                        <div class="card-content ">
+                            <div class="media ">
+                                <div class="container ">
+                                    <p class="subtitle is-6 cus-title">Amogh Srivastava &#124; 60 min</p>
+                                    <p class="title is-4 pt-2 has-text-weight-bold">Engineering Better Products with Design on Figma</p>
+                                    <h2 class="subtitle is-6 pt-2 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <button class="button button-body is-fullwidth is-success is-rounded has-text-weight-bold mx-3 my-3">Watch</button>
+                            <!-- <button class="button button-body is-fullwidth is-success is-medium is-rounded has-text-weight-bold mr-3 my-3">RECAP</button> -->
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  Latest Blogs  -->
+    <section class="section">
+        <div class="container ">
+            <div class="title-wrapper has-text-centered ">
+                <h2 class="title cus-title is-2 has-text-weight-bold ">Read Snippets, Our Blog</h2>
+                <h3 class="subtitle is-muted mt-1 ">Blogs by people like yourselves on experiences, advices & new technologies.</h3>
             </div>
         </div>
     </section>
@@ -205,7 +292,7 @@
             <div class="columns ">
                 <!--ROW 1-->
                 <div class="column is-one-third ">
-                    <a href="# ">
+                    <a href="#">
                         <div class="card rounded">
                             <div class="card-image">
                                 <figure class="image is-16by9">
@@ -215,8 +302,8 @@
                             <div class="card-content ">
                                 <div class="media ">
                                     <div class="container ">
-                                        <p class="subtitle is-7 ">John Doe &#124; 31 August 2020 &#124; 15 min read</p>
-                                        <p class="title is-4 pt-2 ">Indian Restaurant Industry – Mid COVID-19 Report</p>
+                                        <p class="subtitle is-6 cus-title">Amogh Srivastava &#124; 15 min read</p>
+                                        <p class="title is-4 pt-2 has-text-weight-bold">Indian Restaurant Industry – Mid COVID-19 Report</p>
                                         <h2 class="subtitle is-6 pt-2 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</h2>
                                     </div>
                                 </div>
@@ -225,20 +312,19 @@
                     </a>
                 </div>
                 <div class="column is-one-third ">
-                    <a href="# ">
-                        <div class="card ">
-                            <div class="card-image ">
-                                <figure class="image is-16by9 ">
-                                    <img src="https://bulma.io/images/placeholders/1280x960.png " alt="Placeholder image ">
+                    <a href="#">
+                        <div class="card rounded">
+                            <div class="card-image">
+                                <figure class="image is-16by9">
+                                    <img src="https://bulma.io/images/placeholders/1280x960.png" class="rounded" alt="Placeholder image ">
                                 </figure>
                             </div>
                             <div class="card-content ">
                                 <div class="media ">
                                     <div class="container ">
-                                        <p class="subtitle is-7 ">John Doe &#124; 31 August 2020 &#124; 15 min read</p>
-                                        <p class="title is-4 pt-2 ">Indian Restaurant Industry – Mid COVID-19 Report</p>
+                                        <p class="subtitle is-6 cus-title">John Doe &#124; 31 August 2020 &#124; 15 min read</p>
+                                        <p class="title is-4 pt-2 has-text-weight-bold">Indian Restaurant Industry – Mid COVID-19 Report</p>
                                         <h2 class="subtitle is-6 pt-2 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</h2>
-
                                     </div>
                                 </div>
                             </div>
@@ -246,20 +332,19 @@
                     </a>
                 </div>
                 <div class="column is-one-third ">
-                    <a href="# ">
-                        <div class="card ">
-                            <div class="card-image ">
-                                <figure class="image is-16by9 ">
-                                    <img src="https://bulma.io/images/placeholders/1280x960.png " alt="Placeholder image ">
+                    <a href="#">
+                        <div class="card rounded">
+                            <div class="card-image">
+                                <figure class="image is-16by9">
+                                    <img src="https://bulma.io/images/placeholders/1280x960.png" class="rounded" alt="Placeholder image ">
                                 </figure>
                             </div>
                             <div class="card-content ">
                                 <div class="media ">
                                     <div class="container ">
-                                        <p class="subtitle is-7 ">John Doe &#124; 31 August 2020 &#124; 15 min read</p>
-                                        <p class="title is-4 pt-2 ">Indian Restaurant Industry – Mid COVID-19 Report</p>
+                                        <p class="subtitle is-7 cus-title">John Doe &#124; 31 August 2020 &#124; 15 min read</p>
+                                        <p class="title is-4 pt-2 has-text-weight-bold">Indian Restaurant Industry – Mid COVID-19 Report</p>
                                         <h2 class="subtitle is-6 pt-2 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</h2>
-
                                     </div>
                                 </div>
                             </div>
