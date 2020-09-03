@@ -11,14 +11,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
     <script src="js/main.js"></script>
     <style>
+        .navbar-item {
+            font-weight: 600;
+            font-size: 0.9rem;
+            letter-spacing: -0.01rem;
+            text-transform: uppercase;
+        }
+        
         .hero {
-            background: url("assets/index/hero-image1.png") center / cover;
-            background-blend-mode: soft-light;
+            background: url("assets/index/pic2x.png") center / cover;
         }
         
         * {
             font-family: 'Montserrat', sans-serif;
             letter-spacing: -.02rem;
+        }
+        
+        .button-body {
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: -0.01rem;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            box-shadow: 0px 14px 23px -17px rgba(0, 0, 0, 0.54);
         }
         
         .herocon {
@@ -36,9 +50,9 @@
     <!-- Hero section -->
     <section class="hero is-black is-dark is-fullheight is-fixed-top">
         <!-- Hero head: will stick at the top -->
-        <div class="hero-head">
+        <div class="hero-head mt-3">
             <nav class="navbar is-black">
-                <div class="container">
+                <div class="container has-text-centered">
                     <div class="navbar-brand">
                         <a class="navbar-item">
                             <img src="assets/brand/CW.png" alt="Logo">
@@ -60,12 +74,9 @@
                             <a class="navbar-item">
                                 Documentation
                             </a>
-                            <span class="navbar-item">
-                                <a class="button is-dark">
-                                    <span class="icon">
-                                        <i class="fab fa-github"></i>
-                                    </span>
-                            <span>View Projects</span>
+                            <span class="navbar-item navbar-button">
+                                <a class="button is-success is-rounded">
+                            <span>GET STARTED</span>
                             </a>
                             </span>
                         </div>
@@ -76,20 +87,21 @@
         <!-- Hero content: will be in the middle -->
         <div class="hero-body">
             <div class="container has-text-centered">
-                <h1 class="title has-text-weight-bold" style="letter-spacing: -0.1rem; font-size: 3.2rem;">
+                <h1 class="title has-text-weight-bold has-shadow" style="letter-spacing: -0.1rem; font-size: 3.2rem;">
                     A club for design and <br> code enthusiasts
                 </h1>
-                <h2 class="paragraph">
+                <h2 class="paragraph mb-5">
                     Bringing cutting-edge technology, new ideas, and top tech-innovators to you
                 </h2>
-                <div class="buttons is-centered pt-5">
-                    <button class="button is-success is-rounded has-text-weight-bold" style="font-family: 'Montserrat', sans-serif; letter-spacing: -0.01rem; font-size: 1.2rem; text-transform: uppercase;">JOIN NOW!</button>
-                    <!-- <a href="#">
-                        <h2 class="subtitle is-white has-text-weight-semibold is-size-6 pl-4" style="font-family: 'Montserrat', sans-serif;">Learn More</h2>
-                    </a> -->
-                    <button class="button is-white is-rounded is-outlined has-text-weight-bold" style="font-family: 'Montserrat', sans-serif; letter-spacing: -0.01rem; font-size: 1.2rem; text-transform: uppercase;">Learn more</button>
+                <div class="columns is-centered">
+                    <div class="column is-2">
+                        <button class="button button-body is-fullwidth is-success is-rounded has-text-weight-bold">GET STARTED</button>
+                    </div>
+                    <div class="column is-2">
+                        <button class="button button-body is-fullwidth is-white is-rounded is-outlined has-text-weight-bold">Learn more</button>
+                    </div>
                 </div>
-                <div class=" columns is-gapless is-centered ">
+                <div class=" columns is-gapless is-centered">
 
                     <a href="https://www.linkedin.com/company/19014726/ " target="_blank ">
                         <span class="icon herocon is-large ">
@@ -110,21 +122,21 @@
             </div>
         </div>
         <!-- Announcement -->
-        <div class="hero-foot ">
+        <!-- <div class="hero-foot ">
             <div class="notification has-text-centered is-warning py-2 px-3 ">
                 Become a member today. Applications to the tech club are <strong>open</strong> until 30th September 2020.
                 <a href="# ">
                     <strong>Apply here</strong>
                 </a>
             </div>
-        </div>
+        </div> -->
     </section>
 
     <!-- What we do  -->
-    <section class="section is-medium ">
+    <section class="section is-medium">
         <div class="container ">
             <div class="title-wrapper has-text-centered ">
-                <h2 class="title is-2 has-text-weight-bold ">Things we do</h2>
+                <h2 class="title is-2 has-text-weight-bold has-shadow ">What we're doing here</h2>
                 <h3 class="subtitle is-muted mt-1 ">Weekly workshops, competitions and lots of projects to support your interests </h3>
                 <div class="divider is-centered "></div>
             </div>
@@ -138,7 +150,7 @@
                         <p class="is-size-5 ">
                             We hold various workshops on various tech topics such as web development, UI/UX design, ethical hacking and more!
                         </p>
-                        <button class="button is-danger mt-5 px-6 ">Learn More</button>
+                        <!-- <button class="button button-body is-danger mt-5 px-6 ">Learn More</button> -->
                     </div>
 
                 </div>
@@ -149,7 +161,7 @@
                         <p class="is-size-5 ">
                             Participate in competitions ranging from designathons to hackathons which will help sharpen your skills and competitiveness.
                         </p>
-                        <button class="button is-info mt-5 px-6 ">Learn More</button>
+                        <!-- <button class="button button-body is-info mt-5 px-6 ">Learn More</button> -->
                     </div>
                 </div>
                 <div class="column ">
@@ -159,7 +171,7 @@
                         <p class=" is-size-5 ">
                             Doing projects and this is where the heart of our community lies! Ranging from chatbots to designing website generators.
                         </p>
-                        <button class="button is-success mt-5 px-6 ">Learn More</button>
+                        <!-- <button class="button button-body is-success mt-5 px-6 ">Learn More</button> -->
                     </div>
                 </div>
             </div>
@@ -167,86 +179,85 @@
     </section>
 
     <!--  Latest Workshops  -->
-    <section class="section ">
+    <section class="section">
         <div class="container ">
             <div class="title-wrapper has-text-centered ">
                 <h2 class="title is-2 has-text-weight-bold ">Our latest workshops</h2>
                 <h3 class="subtitle is-muted mt-1 ">Informative sessions on topics from design to hacking and operating systems</h3>
             </div>
         </div>
-        <section class="section ">
-            <div class="container ">
-                <div class="columns ">
-                    <!--ROW 1-->
-                    <div class="column is-one-third ">
-                        <a href="# ">
-                            <div class="card ">
-                                <div class="card-image ">
-                                    <figure class="image is-16by9 ">
-                                        <img src="https://bulma.io/images/placeholders/1280x960.png " alt="Placeholder image ">
+    </section>
+    <section class="section">
+        <div class="container ">
+            <div class="columns ">
+                <!--ROW 1-->
+                <div class="column is-one-third ">
+                    <a href="# ">
+                        <div class="card ">
+                            <div class="card-image ">
+                                <figure class="image is-16by9 ">
+                                    <img src="https://bulma.io/images/placeholders/1280x960.png " alt="Placeholder image ">
 
-                                    </figure>
-                                </div>
-                                <div class="card-content ">
-                                    <div class="media ">
-                                        <div class="container ">
+                                </figure>
+                            </div>
+                            <div class="card-content ">
+                                <div class="media ">
+                                    <div class="container ">
 
-                                            <p class="subtitle is-7 ">John Doe &#124; 31 August 2020 &#124; 15 min read</p>
-                                            <p class="title is-4 pt-2 ">Indian Restaurant Industry – Mid COVID-19 Report</p>
-                                            <h2 class="subtitle is-6 pt-2 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</h2>
+                                        <p class="subtitle is-7 ">John Doe &#124; 31 August 2020 &#124; 15 min read</p>
+                                        <p class="title is-4 pt-2 ">Indian Restaurant Industry – Mid COVID-19 Report</p>
+                                        <h2 class="subtitle is-6 pt-2 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</h2>
 
-                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </a>
-                    </div>
-                    <div class="column is-one-third ">
-                        <a href="# ">
-                            <div class="card ">
-                                <div class="card-image ">
-                                    <figure class="image is-16by9 ">
-                                        <img src="https://bulma.io/images/placeholders/1280x960.png " alt="Placeholder image ">
-                                    </figure>
-                                </div>
-                                <div class="card-content ">
-                                    <div class="media ">
-                                        <div class="container ">
-                                            <p class="subtitle is-7 ">John Doe &#124; 31 August 2020 &#124; 15 min read</p>
-                                            <p class="title is-4 pt-2 ">Indian Restaurant Industry – Mid COVID-19 Report</p>
-                                            <h2 class="subtitle is-6 pt-2 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="column is-one-third ">
+                    <a href="# ">
+                        <div class="card ">
+                            <div class="card-image ">
+                                <figure class="image is-16by9 ">
+                                    <img src="https://bulma.io/images/placeholders/1280x960.png " alt="Placeholder image ">
+                                </figure>
+                            </div>
+                            <div class="card-content ">
+                                <div class="media ">
+                                    <div class="container ">
+                                        <p class="subtitle is-7 ">John Doe &#124; 31 August 2020 &#124; 15 min read</p>
+                                        <p class="title is-4 pt-2 ">Indian Restaurant Industry – Mid COVID-19 Report</p>
+                                        <h2 class="subtitle is-6 pt-2 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</h2>
 
-                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </a>
-                    </div>
-                    <div class="column is-one-third ">
-                        <a href="# ">
-                            <div class="card ">
-                                <div class="card-image ">
-                                    <figure class="image is-16by9 ">
-                                        <img src="https://bulma.io/images/placeholders/1280x960.png " alt="Placeholder image ">
-                                    </figure>
-                                </div>
-                                <div class="card-content ">
-                                    <div class="media ">
-                                        <div class="container ">
-                                            <p class="subtitle is-7 ">John Doe &#124; 31 August 2020 &#124; 15 min read</p>
-                                            <p class="title is-4 pt-2 ">Indian Restaurant Industry – Mid COVID-19 Report</p>
-                                            <h2 class="subtitle is-6 pt-2 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="column is-one-third ">
+                    <a href="# ">
+                        <div class="card ">
+                            <div class="card-image ">
+                                <figure class="image is-16by9 ">
+                                    <img src="https://bulma.io/images/placeholders/1280x960.png " alt="Placeholder image ">
+                                </figure>
+                            </div>
+                            <div class="card-content ">
+                                <div class="media ">
+                                    <div class="container ">
+                                        <p class="subtitle is-7 ">John Doe &#124; 31 August 2020 &#124; 15 min read</p>
+                                        <p class="title is-4 pt-2 ">Indian Restaurant Industry – Mid COVID-19 Report</p>
+                                        <h2 class="subtitle is-6 pt-2 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</h2>
 
-                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>
-        </section>
-
+        </div>
     </section>
 
     <!-- Join the club  -->
@@ -575,10 +586,14 @@
                             </div>
                         </div>
                     </div>
-                    <br>
-                    <div class="control has-text-centered ">
-                        <button class="button is-black is-medium px-6 is-rounded has-text-weight-bold " style="font-family: 'Montserrat', sans-serif; letter-spacing: -0.01rem; font-size: 1.2rem; ">SUBMIT</button>
+                    <div class="columns is-centered mt-3">
+                        <div class="column is-2">
+                            <div class="control has-text-centered">
+                                <button class="button button-body is-fullwidth is-black is-medium px-6 is-rounded has-text-weight-bold">SUBMIT</button>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </div>
