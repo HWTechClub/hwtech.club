@@ -4,12 +4,49 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Blogs</title>
+    <meta name="description" content="The Heriot Watt Tech Club hosts free workshops, tutorials and live sessions on a wide range of interesting topics. Watch and share them here.">
+    <title>Blogs | Heriot-Watt Tech Club</title>
     <!-- <link rel="stylesheet" href="css/debug.css"> -->
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!-- Open Graph & Twitter -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Blogs | Heriot-Watt Tech Club">
+    <meta property="og:site_name" content="Heriot-Watt Tech Club">
+    <meta property="og:description" content="Blogs by Heriot Watt Tech Club students on experiences, advices & new technologies. Feel free to publish your own thoughts or experiences here!">
+    <meta property="og:image" content="assets/favicon/metapic.png">
+    <meta property="og:url" content="#">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- JavaScript -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- CSS and Fonts -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
 
     <style>
+        #footer {
+            background: url("assets/blogs/footer_blue.png") center / cover;
+        }
+
+        .button-body {
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: -0.01rem;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            box-shadow: 0px 14px 23px -17px rgba(0, 0, 0, 0.54);
+        }
+
         .cut-shape {
             display: block;
             position: absolute;
@@ -52,8 +89,8 @@
         }
         
         .top {
-            background: url("assets/blogs/code-team.jpg") center / cover;
-            background-blend-mode: soft-light;
+            background: url("assets/blogs/code-teamblue.jpg") center / cover;
+            /* background-blend-mode: soft-light; */
         }
     </style>
 
@@ -64,6 +101,46 @@
 <body class="has-background-light">
 
     <section class="hero is-black is-dark is-medium top">
+        <div class="hero-head">
+            <nav class="navbar is-black">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="index.html">
+                            <img src="assets/brand/logo-white.png" alt="Logo">
+                        </a>
+                        <a role="button" class="navbar-burger burger is-white" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <div id="navbarBasicExample" class="navbar-menu">
+                        <div class="navbar-end">
+                            <a class="navbar-item" href="#">
+                                About
+                            </a>
+                            <a class="navbar-item">
+                                Events
+                            </a>
+                            <a class="navbar-item">
+                                Documentation
+                            </a>
+                            <span class="navbar-item">
+                                <a class="button is-dark">
+                                    <span class="icon">
+                                        <i class="fab fa-github"></i>
+                                    </span>
+                            <span>View Projects</span>
+                            </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="cut-shape">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 450"><path fill="#f5f5f5" fill-opacity="1" d="M0,0L30,32C60,64,120,128,180,149.3C240,171,300,149,360,165.3C420,181,480,235,540,250.7C600,267,660,245,720,245.3C780,245,840,267,900,250.7C960,235,1020,181,1080,165.3C1140,149,1200,171,1260,160C1320,149,1380,107,1410,85.3L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+        </div>
         <div class="hero-body">
             <div class="container has-text-centered">
                 <div class="section">
@@ -77,9 +154,6 @@
 
             </div>
 
-        </div>
-        <div class="cut-shape">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f5f5f5" fill-opacity="1" d="M0,0L30,32C60,64,120,128,180,149.3C240,171,300,149,360,165.3C420,181,480,235,540,250.7C600,267,660,245,720,245.3C780,245,840,267,900,250.7C960,235,1020,181,1080,165.3C1140,149,1200,171,1260,160C1320,149,1380,107,1410,85.3L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
         </div>
     </section>
     <div class="tabs is-centered is-medium">
@@ -237,7 +311,7 @@
         </div>
     </section>
 
-    <section class="hero is-black">
+    <section class="hero is-black" id="footer">
         <div class="hero-body">
             <div class="container has-text-centered ">
                 <h1 class="title has-text-weight-bold py-2">Share your ideas and experiences</h1>
