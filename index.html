@@ -4,13 +4,37 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Club For Tech | Heriot-Watt Tech Club</title>
-    <!-- <link rel="stylesheet" href="css/debug.css"> -->
+    <meta name="description" content="Tech Club is a student run organisation at Heriot-Watt University that brings together a computer science community to create, perform and showcase brilliant projects.">
+    <title>A Club For Tech | Heriot-Watt Tech Club</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Open Graph & Twitter -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="A Club For Tech | Heriot-Watt Tech Club">
+    <meta property="og:site_name" content="Heriot-Watt Tech Club">
+    <meta property="og:description" content="Tech Club is a student run organisation at Heriot-Watt University that brings together a computer science community to create, perform and showcase brilliant projects.">
+    <meta property="og:image" content="assets/favicon/metapic.png">
+    <meta property="og:url" content="#">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- JavaScript -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <script src="js/main.js"></script>
+
+    <!-- CSS and Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/hover.css">
-    <script src="js/main.js"></script>
+    <!-- <link rel="stylesheet" href="css/debug.css"> -->
+
     <style>
         .card-img-top {
             margin-top: -150px;
@@ -36,7 +60,7 @@
         }
         
         .hero {
-            background: url("assets/index/pic2x.png") center / cover;
+            background: url("assets/index/pic.png") center / cover;
         }
         
         * {
@@ -58,15 +82,17 @@
             letter-spacing: -0.01rem;
             font-size: 1.2rem;
             text-transform: uppercase;
-            box-shadow: 0px 14px 23px -17px rgba(0, 0, 0, 0.54);
+            box-shadow: 0px 14px 23px -17px rgba(0, 0, 0, 0.24);
         }
         
         .herocon {
             color: white;
         }
         
-        .herocon {
-            color: rgb(231, 231, 231);
+        .herocon:hover {
+            transition-duration: 0.5s;
+            color: #c7cdff;
+            transition-timing-function: ease-in-out;
         }
     </style>
 
@@ -77,13 +103,13 @@
     <section class="hero is-black is-dark is-fullheight is-fixed-top">
         <!-- Hero head: will stick at the top -->
         <div class="hero-head mt-3">
-            <nav class="navbar is-black">
+            <nav class="navbar is-transparent">
                 <div class="container has-text-centered">
                     <div class="navbar-brand">
                         <a class="navbar-item">
-                            <img src="assets/brand/CW.png" alt="Logo">
+                            <img src="assets/brand/logo-white.png" alt="Logo">
                         </a>
-                        <a role="button" class="navbar-burger burger is-white" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                             <span aria-hidden="true"></span>
                             <span aria-hidden="true"></span>
                             <span aria-hidden="true"></span>
@@ -92,23 +118,32 @@
                     <div id="navbarBasicExample" class="navbar-menu">
                         <div class="navbar-end">
                             <a class="navbar-item">
-                                About
+                                <div class="hvr-underline-from-center">
+                                    About
+                                </div>
                             </a>
                             <a class="navbar-item">
-                                Events
+                                <div class="hvr-underline-from-center">
+                                    Workshops
+                                </div>
                             </a>
                             <a class="navbar-item">
-                                Documentation
+                                <div class="hvr-underline-from-center">
+                                    Documentation
+                                </div>
                             </a>
                             <span class="navbar-item navbar-button">
                                 <a class="button is-success is-rounded">
-                            <span>GET STARTED</span>
+                            <span>JOIN NOW</span>
                             </a>
                             </span>
                         </div>
                     </div>
                 </div>
             </nav>
+        </div>
+        <div class="cut-shape">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f5f5f5" fill-opacity="1" d="M0,0L30,32C60,64,120,128,180,149.3C240,171,300,149,360,165.3C420,181,480,235,540,250.7C600,267,660,245,720,245.3C780,245,840,267,900,250.7C960,235,1020,181,1080,165.3C1140,149,1200,171,1260,160C1320,149,1380,107,1410,85.3L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
         </div>
         <!-- Hero content: will be in the middle -->
         <div class="hero-body">
@@ -121,10 +156,10 @@
                 </h2>
                 <div class="columns is-centered">
                     <div class="column is-2">
-                        <button class="button button-body is-fullwidth is-success is-rounded has-text-weight-bold">GET STARTED</button>
+                        <button class="button button-body is-fullwidth is-success is-rounded has-text-weight-bold hvr-float">Join now</button>
                     </div>
                     <div class="column is-2">
-                        <button class="button button-body is-fullwidth is-white is-rounded is-outlined has-text-weight-bold">Learn more</button>
+                        <button class="button button-body is-fullwidth is-white is-rounded is-outlined has-text-weight-bold hvr-float">Learn more</button>
                     </div>
                 </div>
                 <div class=" columns is-gapless is-centered">
@@ -158,9 +193,7 @@
             </div>
         </div> -->
     </section>
-    <div class="cut-shape">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f5f5f5" fill-opacity="1" d="M0,0L30,32C60,64,120,128,180,149.3C240,171,300,149,360,165.3C420,181,480,235,540,250.7C600,267,660,245,720,245.3C780,245,840,267,900,250.7C960,235,1020,181,1080,165.3C1140,149,1200,171,1260,160C1320,149,1380,107,1410,85.3L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
-    </div>
+
 
     <!-- What we do  -->
     <section class="section is-medium pt-0 pb-6">
@@ -172,33 +205,33 @@
             </div>
         </div>
         <div class="container pt-6 has-text-centered " style="margin-top: 3rem;">
-            <div class="columns ">
-                <div class="column ">
+            <div class="columns is-centered is-vcentered">
+                <div class="column is-3">
                     <div class="notification not-cards is-white rounded hvr-grow">
                         <img src="assets/index/card3.png" class="card-img-top">
                         <h1 class="title is-size-3 has-text-weight-bold mt-3 ">Workshops</h1>
-                        <p class="is-size-5 ">
-                            Attend workshops on various topics such as web development, UI/UX and ethical hacking
+                        <p class="is-size-6 ">
+                            Attend workshops on various topics such as UI/UX, ethical hacking and IPFS
                         </p>
                         <!-- <button class="button button-body is-danger mt-5 px-6 ">Learn More</button> -->
                     </div>
 
                 </div>
-                <div class="column">
+                <div class="column is-4">
                     <div class="notification not-cards is-white rounded hvr-grow">
                         <img src="assets/index/card1.png" class="card-img-top">
                         <h1 class="title is-size-3 has-text-weight-bold mt-3">Competitions</h1>
-                        <p class="is-size-5 ">
+                        <p class="is-size-6 ">
                             Designathons to hackathons which will help sharpen your skills and competitiveness.
                         </p>
                         <!-- <button class="button button-body is-info mt-5 px-6 ">Learn More</button> -->
                     </div>
                 </div>
-                <div class="column ">
+                <div class="column is-3">
                     <div class="notification not-cards is-white rounded hvr-grow">
                         <img src="assets/index/card2.png" class="card-img-top">
                         <h1 class="title is-size-3 has-text-weight-bold mt-3 ">Projects</h1>
-                        <p class=" is-size-5 ">
+                        <p class=" is-size-6 ">
                             Take part in projects from creating chatbots to designing website generators.
                         </p>
                         <!-- <button class="button button-body is-success mt-5 px-6 ">Learn More</button> -->
@@ -208,171 +241,62 @@
         </div>
     </section>
 
-    <!--  Latest Workshops  -->
-    <section class="section">
-        <div class="container ">
-            <div class="title-wrapper has-text-centered ">
-                <h2 class="title cus-title is-2 has-text-weight-bold ">Our latest workshops</h2>
-                <h3 class="subtitle is-muted mt-1 ">Informative sessions on topics from design to hacking and operating systems</h3>
+    <!--  Latest Blogs  -->
+    <section class="section pb-0">
+        <div class="container">
+            <div class="columns is-gapless is-vcentered is-centered">
+                <div class="column is-5">
+                    <h2 class="subtitle">Have a look at our blogs</h2>
+                    <h1 class="title has-text-weight-bold is-1">
+                        Snippets 🧑‍💻
+                    </h1>
+                    <p>
+                        Blogs by students on experiences, advices & new technologies. Feel free to publish your own thoughts or experiences here!
+                    </p>
+                    <div class="block pt-5">
+                        <a class="button button-body is-rounded is-success has-text-weight-bold hvr-float">Read Snippets</a>
+                        <a class="button button-body is-rounded is-white has-text-weight-bold hvr-float">Submit your own</a>
+                    </div>
+                </div>
+                <div class="column is-5 hvr-float">
+                    <figure class="image">
+                        <img src="assets/index/blog.png">
+                    </figure>
+                </div>
+
             </div>
-        </div>
-    </section>
-    <section class="section">
-        <div class="container ">
-            <div class="columns is-centered">
-                <!-- Row 1 -->
-                <div class="column is-one-third ">
-                    <div class="card rounded">
-                        <div class="card-image">
-                            <figure class="image is-16by9">
-                                <img src="https://bulma.io/images/placeholders/1280x960.png" class="rounded" alt="Placeholder image ">
-                            </figure>
-                        </div>
-                        <div class="card-content ">
-                            <div class="media ">
-                                <div class="container ">
-                                    <p class="subtitle is-6 cus-title">Amogh Srivastava &#124; 60 min</p>
-                                    <p class="title is-4 pt-2 has-text-weight-bold">Engineering Better Products with Design on Figma</p>
-                                    <h2 class="subtitle is-6 pt-2 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <footer class="card-footer">
-                            <button class="button button-body is-fullwidth is-success is-rounded has-text-weight-bold mx-3 my-3">Watch</button>
-                            <!-- <button class="button button-body is-fullwidth is-success is-medium is-rounded has-text-weight-bold mr-3 my-3">RECAP</button> -->
-                        </footer>
-                    </div>
-                </div>
-                <div class="column is-one-third ">
-                    <div class="card rounded">
-                        <div class="card-image">
-                            <figure class="image is-16by9">
-                                <img src="https://bulma.io/images/placeholders/1280x960.png" class="rounded" alt="Placeholder image ">
-                            </figure>
-                        </div>
-                        <div class="card-content ">
-                            <div class="media ">
-                                <div class="container ">
-                                    <p class="subtitle is-6 cus-title">Amogh Srivastava &#124; 60 min</p>
-                                    <p class="title is-4 pt-2 has-text-weight-bold">Engineering Better Products with Design on Figma</p>
-                                    <h2 class="subtitle is-6 pt-2 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <footer class="card-footer">
-                            <button class="button button-body is-fullwidth is-success is-rounded has-text-weight-bold mx-3 my-3">Watch</button>
-                            <!-- <button class="button button-body is-fullwidth is-success is-medium is-rounded has-text-weight-bold mr-3 my-3">RECAP</button> -->
-                        </footer>
-                    </div>
-                </div>
-                <div class="column is-one-third ">
-                    <div class="card rounded">
-                        <div class="card-image">
-                            <figure class="image is-16by9">
-                                <img src="https://bulma.io/images/placeholders/1280x960.png" class="rounded" alt="Placeholder image ">
-                            </figure>
-                        </div>
-                        <div class="card-content ">
-                            <div class="media ">
-                                <div class="container ">
-                                    <p class="subtitle is-6 cus-title">Amogh Srivastava &#124; 60 min</p>
-                                    <p class="title is-4 pt-2 has-text-weight-bold">Engineering Better Products with Design on Figma</p>
-                                    <h2 class="subtitle is-6 pt-2 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <footer class="card-footer">
-                            <button class="button button-body is-fullwidth is-success is-rounded has-text-weight-bold mx-3 my-3">Watch</button>
-                            <!-- <button class="button button-body is-fullwidth is-success is-medium is-rounded has-text-weight-bold mr-3 my-3">RECAP</button> -->
-                        </footer>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </section>
 
-    <!--  Latest Blogs  -->
-    <section class="section">
-        <div class="container ">
-            <div class="title-wrapper has-text-centered ">
-                <h2 class="title cus-title is-2 has-text-weight-bold ">Read Snippets, Our Blog</h2>
-                <h3 class="subtitle is-muted mt-1 ">Blogs by people like yourselves on experiences, advices & new technologies.</h3>
-            </div>
-        </div>
-    </section>
-    <section class="section">
-        <div class="container ">
-            <div class="columns ">
-                <!--ROW 1-->
-                <div class="column is-one-third ">
-                    <a href="#">
-                        <div class="card rounded">
-                            <div class="card-image">
-                                <figure class="image is-16by9">
-                                    <img src="https://cdn-images-1.medium.com/max/3840/1*RmvcYMvi4YtXlJz-iXntTA.jpeg" class="rounded" alt="Placeholder image ">
-                                </figure>
-                            </div>
-                            <div class="card-content ">
-                                <div class="media ">
-                                    <div class="container ">
-                                        <p class="subtitle is-6 cus-title">Alister Luiz &#124; 15 min read</p>
-                                        <p class="title is-4 pt-2 has-text-weight-bold">The best all-in-one responsive and scalable code structure for Flutter</p>
-                                        <h2 class="subtitle is-6 pt-2 ">
-                                            If you are looking for an all-in-one scalable and responsive code structure for your Flutter appli...
-                                        </h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+    <!--  Latest Workshops  -->
+    <section class="section pt-0">
+        <div class="container">
+            <div class="columns is-gapless is-vcentered is-centered">
+                <div class="column is-5 hvr-float">
+                    <figure class="image">
+                        <img src="assets/index/work.png">
+                    </figure>
                 </div>
-                <div class="column is-one-third ">
-                    <a href="#">
-                        <div class="card rounded">
-                            <div class="card-image">
-                                <figure class="image is-16by9">
-                                    <img src="https://www.dsogaming.com/wp-content/uploads/2019/11/Microsoft-Flight-Simulater-new-2.jpg" class="rounded" alt="Placeholder image ">
-                                </figure>
-                            </div>
-                            <div class="card-content ">
-                                <div class="media ">
-                                    <div class="container ">
-                                        <p class="subtitle is-6 cus-title">Akilan Selvakoumar &#124; 15 min read</p>
-                                        <p class="title is-4 pt-2 has-text-weight-bold">Why FS2020 is something very Exciting</p>
-                                        <h2 class="subtitle is-6 pt-2 ">
-                                            A flight simulator is a device that artificially re-creates aircraft flight and the environment in wh...
-                                        </h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="column is-one-third ">
-                    <a href="#">
-                        <div class="card rounded">
-                            <div class="card-image">
-                                <figure class="image is-16by9">
-                                    <img src="https://cdn-images-1.medium.com/max/3840/1*RmvcYMvi4YtXlJz-iXntTA.jpeg" class="rounded" alt="Placeholder image ">
-                                </figure>
-                            </div>
-                            <div class="card-content ">
-                                <div class="media ">
-                                    <div class="container ">
-                                        <p class="subtitle is-6 cus-title">Mohit Katta &#124; 15 min read</p>
-                                        <p class="title is-4 pt-2 has-text-weight-bold">Intrigued to code</p>
-                                        <h2 class="subtitle is-6 pt-2 ">
-                                            Right now, I am a computer Science student who learnt a lot of languages and coded many progr...
-                                        </h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+                <div class="column is-5">
+                    <h2 class="subtitle">Learn like there is no tomorrow</h2>
+                    <h1 class="title has-text-weight-bold is-1">
+                        Workshops 🧑‍🔧
+                    </h1>
+                    <p>
+                        Informative sessions on topics from design to hacking and operating systems
+                    </p>
+                    <div class="block pt-5">
+                        <a class="button button-body is-rounded is-success has-text-weight-bold hvr-float">View workshops</a>
+                        <!-- <a class="button button-body is-rounded is-white has-text-weight-bold hvr-float">Submit your own</a> -->
+                    </div>
                 </div>
             </div>
+
         </div>
     </section>
+
+
 
     <!-- Join the club  -->
     <section class="section has-background-success ">
