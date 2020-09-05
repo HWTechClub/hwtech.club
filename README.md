@@ -22,11 +22,11 @@ Mark the following checkpoints after their completion. After completion of certa
 - [x] Blogs page (harini)
 - [x] Blogs content page (From scrimba -- link below) (harini)
 - [x] Join us form component (harini)
-- [ ] About page (rk-92)
-- [ ] Teams component (rk-92)
-- [ ] Level component (rk-92)
-- [ ] Workshops cards (harini)
-- [ ] Submit Workshop idea section (harini)
+- [x] About page (rk-92)
+- [x] Teams component (rk-92)
+- [x] Level component (rk-92)
+- [x] Workshops cards (harini)
+- [x] Submit Workshop idea section (harini)
 
 Optional:
 - [ ] Shadow hover effect on cards ([Like cards on this](https://www.oneprofile.page/))
