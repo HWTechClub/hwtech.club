@@ -34,11 +34,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
 
-      <style>
+    <style>
         #footer {
             background: url("assets/blogs/footer_blue.png") center / cover;
         }
-
+        
         .button-body {
             font-family: 'Montserrat', sans-serif;
             letter-spacing: -0.01rem;
@@ -46,14 +46,18 @@
             text-transform: uppercase;
             box-shadow: 0px 14px 23px -17px rgba(0, 0, 0, 0.54);
         }
-
+        
         .cut-shape {
             display: block;
             position: absolute;
-            bottom: -0.6rem;
+            bottom: 1.2rem;
             left: 0;
             width: 100%;
-            margin: 0;
+            height: auto;
+        }
+        
+        .push-up {
+            z-index: 1000;
         }
         
         .cus-title {
@@ -91,6 +95,28 @@
         .top {
             background: url("assets/blogs/code-teamblue.jpg") center / cover;
             /* background-blend-mode: soft-light; */
+        }
+        
+        .absolute-header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 580px;
+            transition: all .3s;
+            z-index: 0;
+        }
+        
+        .absolute-header .header-inner {
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+        
+        @media only screen and (max-width: 622px) {
+            .absolute-header {
+                visibility: hidden;
+            }
         }
     </style>
 
@@ -138,8 +164,12 @@
                 </div>
             </nav>
         </div>
-        <div class="cut-shape">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 450"><path fill="#f5f5f5" fill-opacity="1" d="M0,0L30,32C60,64,120,128,180,149.3C240,171,300,149,360,165.3C420,181,480,235,540,250.7C600,267,660,245,720,245.3C780,245,840,267,900,250.7C960,235,1020,181,1080,165.3C1140,149,1200,171,1260,160C1320,149,1380,107,1410,85.3L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+        <div class="absolute-header">
+            <div class="header-inner">
+                <div class="cut-shape">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f5f5f5" fill-opacity="1" d="M0,0L30,32C60,64,120,128,180,149.3C240,171,300,149,360,165.3C420,181,480,235,540,250.7C600,267,660,245,720,245.3C780,245,840,267,900,250.7C960,235,1020,181,1080,165.3C1140,149,1200,171,1260,160C1320,149,1380,107,1410,85.3L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+                </div>
+            </div>
         </div>
         <div class="hero-body">
             <div class="container has-text-centered">
@@ -156,7 +186,7 @@
 
         </div>
     </section>
-    <div class="tabs is-centered is-medium">
+    <div class="tabs is-centered is-medium push-up">
         <ul>
             <li class="is-active"><a>All Categories</a></li>
             <li><a>Community</a></li>
@@ -324,4 +354,4 @@
 </body>
 
 
-</html>    
+</html>
