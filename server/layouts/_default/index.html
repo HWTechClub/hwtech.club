@@ -1,0 +1,337 @@
+{{ partial "head.html" . }}
+
+    <style>
+        .card-img-top {
+            margin-top: -150px;
+        }
+        
+        .not-cards {
+            margin-top: 50px;
+        }
+        
+        .rounded {
+            border-radius: 20px;
+            box-shadow: 0px 14px 23px -17px rgba(0, 0, 0, 0.075);
+        }
+        
+        .cus-title {
+            color: #1B2DC8;
+        }
+        
+        .navbar-item {
+            font-weight: 600;
+            font-size: 0.9rem;
+            letter-spacing: -0.01rem;
+        }
+        
+        .hero {
+            background: url("assets/index/pic.png") center / cover;
+        }
+        
+        * {
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: -.02rem;
+        }
+        
+        .cut-shape {
+            display: block;
+            position: absolute;
+            bottom: -0.6rem;
+            left: 0;
+            width: 100%;
+            margin: 0;
+        }
+        
+        .button-body {
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: -0.01rem;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            box-shadow: 0px 14px 23px -17px rgba(0, 0, 0, 0.24);
+        }
+        
+        .herocon {
+            color: white;
+        }
+        
+        .herocon:hover {
+            transition-duration: 0.5s;
+            color: #c7cdff;
+            transition-timing-function: ease-in-out;
+        }
+    </style>
+
+</head>
+
+<body class="has-background-light">
+    <!-- Hero section -->
+    <section class="hero is-black is-dark is-fullheight is-fixed-top">
+        <!-- Hero head: will stick at the top -->
+        <div class="hero-head mt-3">
+            <nav class="navbar is-transparent">
+                <div class="container has-text-centered">
+                    <div class="navbar-brand">
+                        <a class="navbar-item">
+                            <img src="assets/brand/logo-white.png" alt="Logo">
+                        </a>
+                        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <div id="navbarBasicExample" class="navbar-menu">
+                        <div class="navbar-end">
+                            <a class="navbar-item">
+                                <div class="hvr-underline-from-center">
+                                    About
+                                </div>
+                            </a>
+                            <a class="navbar-item">
+                                <div class="hvr-underline-from-center">
+                                    Workshops
+                                </div>
+                            </a>
+                            <a class="navbar-item">
+                                <div class="hvr-underline-from-center">
+                                    Documentation
+                                </div>
+                            </a>
+                            <span class="navbar-item navbar-button">
+                                <a class="button is-success is-rounded">
+                            <span>JOIN NOW</span>
+                            </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="cut-shape">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f5f5f5" fill-opacity="1" d="M0,0L30,32C60,64,120,128,180,149.3C240,171,300,149,360,165.3C420,181,480,235,540,250.7C600,267,660,245,720,245.3C780,245,840,267,900,250.7C960,235,1020,181,1080,165.3C1140,149,1200,171,1260,160C1320,149,1380,107,1410,85.3L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+        </div>
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <!-- {{ with .Params.about_title }}{{ . | safeHTML }}{{ end }} -->
+                <h1 class="title has-text-weight-bold has-shadow" style="letter-spacing: -0.1rem; font-size: 3.2rem;">
+                    {{ with .Params.hero_body.title }}{{ . | safeHTML }}{{ end }}
+                    <!-- A club for design and <br> code enthusiasts -->
+                </h1>
+                <h2 class="paragraph mb-5">
+                    {{ with .Params.hero_body.subtitle }}{{ . | safeHTML }}{{ end }}
+                </h2>
+                <div class="columns is-centered">
+                    <div class="column is-2">
+                        <button class="button button-body is-fullwidth is-success is-rounded has-text-weight-bold hvr-float">Join now</button>
+                    </div>
+                    <div class="column is-2">
+                        <button class="button button-body is-fullwidth is-white is-rounded is-outlined has-text-weight-bold hvr-float">Learn more</button>
+                    </div>
+                </div>
+                {{ partial "iconcolumn.html" (dict "context" . "type" "herocon") }}
+            </div>
+        </div>
+
+        <!-- Announcement -->
+        <!-- <div class="hero-foot ">
+            <div class="notification has-text-centered is-warning py-2 px-3 ">
+                Become a member today. Applications to the tech club are <strong>open</strong> until 30th September 2020.
+                <a href="# ">
+                    <strong>Apply here</strong>
+                </a>
+            </div>
+        </div> -->
+    </section>
+
+
+    <!-- What we do  -->
+    <section class="section is-medium pt-0 pb-6">
+        <div class="container">
+            <div class="title-wrapper has-text-centered ">
+                <h2 class="title cus-title is-2 has-text-weight-bold has-shadow ">Things we do</h2>
+                <h3 class="subtitle is-muted mt-1">Weekly workshops, competitions and lots of projects to support your interests </h3>
+                <div class="divider is-centered"></div>
+            </div>
+        </div>
+        <div class="container pt-6 has-text-centered " style="margin-top: 3rem;">
+            <div class="columns is-centered is-vcentered">
+            {{ range .Params.twd.cards}}
+                <div class="column is-{{.size}}">
+                    <div class="notification not-cards is-white rounded hvr-grow">
+                        <img src="assets/index/{{.img}}" class="card-img-top">
+                        <h1 class="title is-size-3 has-text-weight-bold mt-3 ">{{.title}}</h1>
+                        <p class="is-size-6 ">
+                            {{.text}}
+                        </p>
+                        <!-- <button class="button button-body is-danger mt-5 px-6 ">Learn More</button> -->
+                    </div>
+
+                </div>
+            {{end}}
+            </div>
+        </div>
+    </section>
+
+    <!--  Latest Blogs  -->
+    <section class="section pb-0">
+        <div class="container">
+            <div class="columns is-gapless is-vcentered is-centered">
+                <div class="column is-5">
+                    <h2 class="subtitle">{{ .Params.blogs.subtitle}}</h2>
+                    <h1 class="title has-text-weight-bold is-1">
+                        {{ .Params.blogs.title }}
+                    </h1>
+                    <p>
+                        {{ .Params.blogs.text}}
+                    </p>
+                    <div class="block pt-5">
+                        <a class="button button-body is-rounded is-success has-text-weight-bold hvr-float">Read Snippets</a>
+                        <a class="button button-body is-rounded is-white has-text-weight-bold hvr-float">Submit your own</a>
+                    </div>
+                </div>
+                <div class="column is-5 hvr-float">
+                    <figure class="image">
+                        <img src="assets/index/{{ .Params.blogs.img}}">
+                    </figure>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--  Latest Workshops  -->
+    <section class="section pt-0">
+        <div class="container">
+            <div class="columns is-gapless is-vcentered is-centered">
+                <div class="column is-5 hvr-float">
+                    <figure class="image">
+                        <img src="assets/index/{{ .Params.workshops.img}}">
+                    </figure>
+                </div>
+                <div class="column is-5">
+                    <h2 class="subtitle">{{ .Params.workshops.subtitle}}</h2>
+                    <h1 class="title has-text-weight-bold is-1">
+                        {{ .Params.workshops.title }}
+                    </h1>
+                    <p>
+                        {{ .Params.workshops.text}}
+                    </p>
+                    <div class="block pt-5">
+                        <a class="button button-body is-rounded is-success has-text-weight-bold hvr-float">View workshops</a>
+                        <!-- <a class="button button-body is-rounded is-white has-text-weight-bold hvr-float">Submit your own</a> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Join the club  -->
+    <section class="section has-background-success ">
+        <div class="container has-text-centered pt-4 ">
+            <h2 class="title is-2 is-spaced has-text-weight-bold has-text-white ">{{ .Params.jtc.title}}</h2>
+            <h4 class="subtitle has-text-white "> {{ .Params.jtc.subtitle}}
+                <a href="mailto:{{ .Params.jtc.mailing }} ">
+                    {{ .Params.jtc.mailing }}
+                </a>
+            </h4>
+        </div>
+
+        <div class="container mt-6 ">
+            <div class="columns is-centered ">
+                <div class="column is-8 ">
+
+                    <div class="field pb-2 ">
+                        <input class="input " type="text " placeholder="Your Name ">
+                    </div>
+
+                    <div class="field pb-2 ">
+                        <input class="input " type="email " placeholder="Your Heriot-Watt Email Address ">
+                    </div>
+
+                    <!-- <div class="field ">
+                        <input class="input " type="tel " placeholder="Your Mobile Number ">
+                    </div> -->
+
+                    <div class="field is-expanded pb-2 ">
+                        <div class="field has-addons ">
+                            <p class="control">
+                                <span class="select ">
+                                    <select>
+                                        {{ partial "countrycode.html" .}}
+                                    </select>
+                                </span>
+                            </p>
+
+                            <p class="control is-expanded ">
+                                <input class="input " type="tel " placeholder="Your Mobile Number">
+                            </p>
+                        </div>
+                        <p class="help is-white ">For example. +971 50-555-5555</p>
+                        <!-- <p class="help ">Do not enter the first zero</p> -->
+                    </div>
+
+                    <div class="field pt-2 ">
+                        <label class="label has-text-centered ">Area of Interests</label>
+                        <p class="subtitle is-6 has-text-centered ">(You can select multiple options)</p>
+                        <div class="control">
+                            
+                            <div class="columns is-multiline">
+
+                                {{ range .Params.jtc.subjects}}
+                                    <div class="column is-half">
+
+                                        <label class="checkbox">
+                                            <input type="checkbox" name="answer">&nbsp;{{ .val}}
+                                        </label> <br>
+                                    </div>
+                                {{end}}
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columns is-centered mt-3">
+                        <div class="column is-2">
+                            <div class="control has-text-centered">
+                                <button class="button button-body is-fullwidth is-black is-medium px-6 is-rounded has-text-weight-bold">SUBMIT</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer ">
+        <div class="content has-text-centered ">
+            <p>
+                <strong>Designed by</strong> by <a href="# ">Tech Club Design Team</a> The website content is licensed
+                <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/ ">CC BY NC SA 4.0</a>.
+            </p>
+        </div>
+
+        {{ partial "iconcolumn.html" (dict "context" . "type" "") }}
+        <div class="columns is-centered ">
+            <div class="column is-narrow ">
+                <a href="https://bulma.io ">
+                    <img src="https://bulma.io/images/made-with-bulma.png " alt="Made with Bulma " width="128 " height="24 ">
+                </a>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+    <!-- JavaScript -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script src="js/main.js"></script>
+
+</html>
