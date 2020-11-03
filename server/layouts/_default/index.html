@@ -1,65 +1,65 @@
 {{ partial "head.html" . }}
 
-    <style>
-        .card-img-top {
-            margin-top: -150px;
-        }
-        
-        .not-cards {
-            margin-top: 50px;
-        }
-        
-        .rounded {
-            border-radius: 20px;
-            box-shadow: 0px 14px 23px -17px rgba(0, 0, 0, 0.075);
-        }
-        
-        .cus-title {
-            color: #1B2DC8;
-        }
-        
-        .navbar-item {
-            font-weight: 600;
-            font-size: 0.9rem;
-            letter-spacing: -0.01rem;
-        }
-        
-        .hero {
-            background: url("assets/index/pic.png") center / cover;
-        }
-        
-        * {
-            font-family: 'Montserrat', sans-serif;
-            letter-spacing: -.02rem;
-        }
-        
-        .cut-shape {
-            display: block;
-            position: absolute;
-            bottom: -0.6rem;
-            left: 0;
-            width: 100%;
-            margin: 0;
-        }
-        
-        .button-body {
-            font-family: 'Montserrat', sans-serif;
-            letter-spacing: -0.01rem;
-            font-size: 1.2rem;
-            text-transform: uppercase;
-            box-shadow: 0px 14px 23px -17px rgba(0, 0, 0, 0.24);
-        }
-        
-        .herocon {
-            color: white;
-        }
-        
-        .herocon:hover {
-            transition-duration: 0.5s;
-            color: #c7cdff;
-            transition-timing-function: ease-in-out;
-        }
-    </style>
+<style>
+    .card-img-top {
+        margin-top: -150px;
+    }
+    
+    .not-cards {
+        margin-top: 50px;
+    }
+    
+    .rounded {
+        border-radius: 20px;
+        box-shadow: 0px 14px 23px -17px rgba(0, 0, 0, 0.075);
+    }
+    
+    .cus-title {
+        color: #1B2DC8;
+    }
+    
+    .navbar-item {
+        font-weight: 600;
+        font-size: 0.9rem;
+        letter-spacing: -0.01rem;
+    }
+    
+    .hero {
+        background: url("assets/index/pic.png") center / cover;
+    }
+    
+    * {
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: -.02rem;
+    }
+    
+    .cut-shape {
+        display: block;
+        position: absolute;
+        bottom: -0.6rem;
+        left: 0;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .button-body {
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: -0.01rem;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        box-shadow: 0px 14px 23px -17px rgba(0, 0, 0, 0.24);
+    }
+    
+    .herocon {
+        color: white;
+    }
+    
+    .herocon:hover {
+        transition-duration: 0.5s;
+        color: #c7cdff;
+        transition-timing-function: ease-in-out;
+    }
+</style>
 
 </head>
 
@@ -156,7 +156,7 @@
         </div>
         <div class="container pt-6 has-text-centered " style="margin-top: 3rem;">
             <div class="columns is-centered is-vcentered">
-            {{ range .Params.twd.cards}}
+                {{ range .Params.twd.cards}}
                 <div class="column is-{{.size}}">
                     <div class="notification not-cards is-white rounded hvr-grow">
                         <img src="assets/index/{{.img}}" class="card-img-top">
@@ -168,7 +168,7 @@
                     </div>
 
                 </div>
-            {{end}}
+                {{end}}
             </div>
         </div>
     </section>
@@ -279,19 +279,19 @@
                         <label class="label has-text-centered ">Area of Interests</label>
                         <p class="subtitle is-6 has-text-centered ">(You can select multiple options)</p>
                         <div class="control">
-                            
+
                             <div class="columns is-multiline">
 
                                 {{ range .Params.jtc.subjects}}
-                                    <div class="column is-half">
+                                <div class="column is-half">
 
-                                        <label class="checkbox">
+                                    <label class="checkbox">
                                             <input type="checkbox" name="answer">&nbsp;{{ .val}}
                                         </label> <br>
-                                    </div>
+                                </div>
                                 {{end}}
-                                
-                                
+
+
                             </div>
                         </div>
                     </div>
@@ -330,8 +330,8 @@
     </footer>
 </body>
 
-    <!-- JavaScript -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-    <script src="js/main.js"></script>
+<!-- JavaScript -->
+<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+<script src="js/main.js"></script>
 
 </html>
