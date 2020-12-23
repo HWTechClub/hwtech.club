@@ -1,9 +1,12 @@
 <div class="tabs is-centered is-medium push-up">
     <ul>
-        <li class="is-active"><a>All Categories</a></li>
-        <li><a>Community</a></li>
-        <li><a>Design & Tech</a></li>
-        <li><a>Culture</a></li>
+        <li class="category is-active"><a>All Categories</a></li>
+        {{ range .Params.categories }}
+        <li class="category"><a>{{ .name }}</a></li>
+        {{ end }}
+        <!-- <li class="category is-active"><a>Community</a></li>
+        <li class="category is-active"><a>Design & Tech</a></li>
+        <li class="category is-active"><a>Culture</a></li> -->
     </ul>
 </div>
 
@@ -12,7 +15,7 @@
         <div class="columns is-multiline ">
             <!--ROW 1-->
             {{ range .Params.cards }}
-            <div class="column is-one-third ">
+            <div class="column is-one-third category-{{ .category}}">
                 <a href="#">
                     <div class="card rounded">
                         <div class="card-image">

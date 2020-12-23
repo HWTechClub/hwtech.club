@@ -3,6 +3,10 @@ hero_body:
     title: Workshops
     subtitle: We host an array of free workshops, tutorials and live sessions on many topics.
 
+categories:
+    - name: Community
+    - name: Design & Tech
+    - name: Culture
 
 cards:
     - author: Akilan Selvacoumar
@@ -10,6 +14,7 @@ cards:
       title: Introduction to IPFS
       subtitle: In this introductory session you will learn about this popular decentralized web protocol, hosted by Akilan Selvacoumar.
       img: http://i3.ytimg.com/vi/nNjBUl8ERiI/maxresdefault.jpg
+      category: 1
       footer:
         - title: View on Youtube
           link: 
@@ -21,6 +26,7 @@ cards:
       title: Walkthrough on UI/UX
       subtitle: Learn about UI/UX design and design a small user flow on Figma in about 60 minutes in this workshop.
       img: http://i3.ytimg.com/vi/ofHOEiv9dWI/maxresdefault.jpg
+      category: 2
       footer:
         - title: View on Youtube
           link: 
@@ -32,6 +38,7 @@ cards:
       title: Capture The Flag Walkthrough
       subtitle: Learn more how to go about setting up a CTF and solving it all on your very own local network!
       img: http://i3.ytimg.com/vi/LjE3U23iCeE/maxresdefault.jpg
+      category: 3
       footer:
         - title: View on Youtube
           link: 
