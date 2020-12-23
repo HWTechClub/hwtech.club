@@ -54,7 +54,9 @@ jtc:
 
 icons:
     - name: linkedin-in
+      link : https://www.linkedin.com/company/19014726/ 
     - name: youtube
+      link: https://www.youtube.com
     - name: instagram
     - name: facebook
         

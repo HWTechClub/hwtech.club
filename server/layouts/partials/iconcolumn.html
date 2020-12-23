@@ -2,7 +2,7 @@
 
     {{ $type := .type }}
     {{ range .context.Params.icons }}
-        <a href="https://www.linkedin.com/company/19014726/ " target="_blank ">
+        <a href="{{ .link}}" target="_blank ">
             <span class="icon {{ $type }} is-large ">
                 <i class="fab fa-lg fa-{{ .name}} "></i>
             </span>
