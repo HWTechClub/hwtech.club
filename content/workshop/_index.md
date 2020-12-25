@@ -18,8 +18,6 @@ cards:
       footer:
         - title: View on Youtube
           link: 
-        - title: Share
-          link: 
 
     - author: Amogh Srivastava
       min: 1 hour 42 min
@@ -29,8 +27,6 @@ cards:
       category: 2
       footer:
         - title: View on Youtube
-          link: 
-        - title: Share
           link: 
 
     - author: Piya Gehi
@@ -42,12 +38,11 @@ cards:
       footer:
         - title: View on Youtube
           link: 
-        - title: Share
-          link: 
 
 footer:
     title: Share your ideas for future workshops
     subtitle: Tell us what you would like to do or learn in the next workshop
     buttontext: Submit your ideas
+    link: https://github.com/HWTechClub/Roadmap
 
 ---

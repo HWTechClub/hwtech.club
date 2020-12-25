@@ -21,7 +21,7 @@ twd :
           img: card2.png
 
 blogs:
-    title: Snippets 🧑‍💻
+    title: Blogs 🧑‍💻
     subtitle: Have a look at our blogs
     text: Blogs by students on experiences, advices & new technologies. Feel free to publish your own thoughts or experiences here!
     img: blog.png
@@ -54,11 +54,13 @@ jtc:
 
 icons:
     - name: linkedin-in
-      link : https://www.linkedin.com/company/19014726/ 
+      link : https://www.linkedin.com/company/hwtechclub
     - name: youtube
-      link: https://www.youtube.com
+      link: https://www.youtube.com/channel/UClt78vXoYl1N57pNOaaIvEw
     - name: instagram
-    - name: facebook
+      link: https://www.instagram.com/hwtechclub/?hl=en
+    - name: github
+      link: https://github.com/hwtechclub
         
 
 

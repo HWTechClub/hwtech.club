@@ -82,8 +82,8 @@
         }
         
         .top {
-            background: url("../assets/workshops/workshop.jpg") center / cover;
-            background-blend-mode: soft-light;
+            /* background: url("../assets/workshops/workshop.jpg") center / cover; */
+            /* background-blend-mode: soft-light; */
         }
     </style>
 
@@ -105,7 +105,7 @@
             <div class="container has-text-centered ">
                 <h1 class="title has-text-weight-bold py-2">{{ .Params.footer.title}}</h1>
                 <p class="subtitle is-size-6">{{ .Params.footer.subtitle }}</p>
-                <a class="button is-warning has-text-weight-semibold " href="# ">{{ .Params.footer.buttontext}}</a>
+                <a class="button is-warning has-text-weight-semibold " href="{{ .Params.footer.link}}">{{ .Params.footer.buttontext}}</a>
             </div>
         </div>
     </section>
