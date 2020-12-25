@@ -1,0 +1,11 @@
+<div class=" columns is-gapless is-centered">
+
+    {{ $type := .type }}
+    {{ range .context.Params.icons }}
+        <a href="{{ .link}}" target="_blank ">
+            <span class="icon {{ $type }} is-large ">
+                <i class="fab fa-lg fa-{{ .name}} "></i>
+            </span>
+        </a>
+    {{end}}
+</div>

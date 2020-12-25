@@ -1,0 +1,53 @@
+<div class="tabs is-centered is-medium push-up">
+    <ul>
+        <li class="category is-active"><a>All Categories</a></li>
+        {{ range .Params.categories }}
+        <li class="category"><a>{{ .name }}</a></li>
+        {{ end }}
+        <!-- <li class="category is-active"><a>Community</a></li>
+        <li class="category is-active"><a>Design & Tech</a></li>
+        <li class="category is-active"><a>Culture</a></li> -->
+    </ul>
+</div>
+
+<section class="section">
+    <div class="container ">
+        <div class="columns is-multiline ">
+            <!--ROW 1-->
+            {{ range .Params.cards }}
+            <div class="column is-one-third category-{{ .category}}">
+                <a href="{{ .link }}">
+                    <div class="card rounded">
+                        <div class="card-image">
+                            <figure class="image is-16by9">
+                                <img src="{{ .img }}" class="rounded" alt="Placeholder image ">
+                            </figure>
+                        </div>
+                        <div class="card-content ">
+                            <div class="media ">
+                                <div class="container ">
+                                    <p class="subtitle is-6 cus-title"> {{ .author }} &#124; {{ .min }} </p>
+                                    <p class="title is-4 pt-2 has-text-weight-bold"> {{ .title }}</p>
+                                    <h2 class="subtitle is-6 pt-2 ">
+                                        {{ .subtitle }}
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        {{ if isset . "footer" }}
+                        <footer class="card-footer">
+                            {{ range .footer }}
+                            <a href="{{ .link }}" class="card-footer-item">
+                                {{ .title }}
+                            </a>    
+                            {{ end }}
+                        </footer>
+                        {{ end }}
+                       
+                    </div>
+                </a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
