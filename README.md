@@ -8,28 +8,10 @@ Coding in HTML with the :crystal_ball: powers of [Bulma CSS](https://bulma.io).
 Please go through the [Bulma CSS documentation](https://bulma.io/documentation) to make sure you are following best code practices before adding or modifying the website code.
 
 ### Stage
-Implementation stage where we are finishing various components/pages and shipping them to backend for integration.
+ALMOST THERE
 
 ### Contributors
-Amogh Srivastava, Ramsha Khan and Harini Balamurugan. 
-
-## Task list
-Mark the following checkpoints after their completion. After completion of certain pages, we will ship those pages to the backend for integration.
-- [x] Home
-- [x] 404 page (amogh)
-- [x] Contact/Reach out to us component (harini)
-- [x] Coming soon feature page (amogh)
-- [x] Blogs page (harini)
-- [x] Blogs content page (From scrimba -- link below) (harini)
-- [x] Join us form component (harini)
-- [x] About page (rk-92)
-- [x] Teams component (rk-92)
-- [x] Level component (rk-92)
-- [x] Workshops cards (harini)
-- [x] Submit Workshop idea section (harini)
-
-Optional:
-- [ ] Shadow hover effect on cards ([Like cards on this](https://www.oneprofile.page/))
+Ashab, Akilan, Amogh Srivastava, Ramsha Khan and Harini Balamurugan. 
 
 ## Useful links
 * VS Code Extension: [Bulma](https://marketplace.visualstudio.com/items?itemName=demijollamaxime.bulma) by Maxime de Mijolla.
