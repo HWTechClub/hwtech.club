@@ -1,50 +1,6 @@
 <section class="hero is-black is-dark is-medium top">
-    <div class="hero-head ">
-        <nav class="navbar is-black">
-            <div class="container">
-                <div class="navbar-brand">
-                    <a class="navbar-item" href="/">
-                        <img src="../assets/brand/logo-white.png" alt="Logo">
-                    </a>
-                    <a role="button" class="navbar-burger burger is-white" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                    </a>
-                </div>
-                <div id="navbarBasicExample" class="navbar-menu">
-                    <div class="navbar-end">
-                        <a class="navbar-item" href="/">
-                            Home
-                        </a>
-                        <a class="navbar-item" href="/blog">
-                            Blog
-                        </a>
-                        <a class="navbar-item" href="/workshop">
-                            Workshop
-                        </a>
-                        <a class="navbar-item" href="https://docs.hwtech.club">
-                            Documentation
-                        </a>
-                        <span class="navbar-item">
-                            <a class="button is-dark" href="https://github.com/hwtechclub">
-                                <span class="icon">
-                                    <i class="fab fa-github"></i>
-                                </span>
-                        <span>View Projects</span>
-                        </a>
-                        </span>
-                        <span class="navbar-item navbar-button">
-                            <a class="button is-success is-rounded" href="/#contact">
-                                <span>JOIN NOW</span>
-                            </a>
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </div>
-    <div class="absolute-header">
+    {{ partial "navbar.html" . }}
+    <div class="absolute-header"> 
         <div class="header-inner">
             <div class="cut-shape">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f5f5f5" fill-opacity="1" d="M0,0L30,32C60,64,120,128,180,149.3C240,171,300,149,360,165.3C420,181,480,235,540,250.7C600,267,660,245,720,245.3C780,245,840,267,900,250.7C960,235,1020,181,1080,165.3C1140,149,1200,171,1260,160C1320,149,1380,107,1410,85.3L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
