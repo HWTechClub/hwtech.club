@@ -13,7 +13,7 @@ cards:
       min: 34 min
       title: Introduction to IPFS
       subtitle: In this introductory session you will learn about this popular decentralized web protocol, hosted by Akilan Selvacoumar.
-      img: http://i3.ytimg.com/vi/nNjBUl8ERiI/maxresdefault.jpg
+      img: https://i3.ytimg.com/vi/nNjBUl8ERiI/maxresdefault.jpg
       category: 1
       footer:
         - title: View on Youtube
@@ -23,7 +23,7 @@ cards:
       min: 1 hour 42 min
       title: Walkthrough on UI/UX
       subtitle: Learn about UI/UX design and design a small user flow on Figma in about 60 minutes in this workshop.
-      img: http://i3.ytimg.com/vi/ofHOEiv9dWI/maxresdefault.jpg
+      img: https://i3.ytimg.com/vi/ofHOEiv9dWI/maxresdefault.jpg
       category: 2
       footer:
         - title: View on Youtube
@@ -33,7 +33,7 @@ cards:
       min: 18 min
       title: Capture The Flag Walkthrough
       subtitle: Learn more how to go about setting up a CTF and solving it all on your very own local network!
-      img: http://i3.ytimg.com/vi/LjE3U23iCeE/maxresdefault.jpg
+      img: https://i3.ytimg.com/vi/LjE3U23iCeE/maxresdefault.jpg
       category: 3
       footer:
         - title: View on Youtube
