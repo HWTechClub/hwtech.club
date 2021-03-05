@@ -103,11 +103,11 @@
                             <span>View Projects</span>
                             </a>
                             </span>
-                            <span class="navbar-item navbar-button">
+                            <!--<span class="navbar-item navbar-button">
                                 <a class="button is-success is-rounded" href="/#contact">
                                     <span>JOIN NOW</span>
                                 </a>
-                            </span>
+                            </span>-->
                         </div>
                     </div>
                 </div>
@@ -135,7 +135,7 @@
                     <div class="column is-2">
                         <a
                             class="button button-body is-fullwidth is-success is-rounded has-text-weight-bold hvr-float"
-                            href="/#" >Join
+                            href="/#contact" >Join
                             now</a>
                     </div>
                     <div class="column is-2">
@@ -250,6 +250,7 @@
 
 
     <!-- Join the club  -->
+    <form  name="contactForm" method="post" data-netlify="true" novalidate="novalidate" />
     <section class="section has-background-success " id="contact">
         <div class="container has-text-centered pt-4 ">
             <h2 class="title is-2 is-spaced has-text-weight-bold has-text-white ">{{ .Params.jtc.title}}</h2>
@@ -260,7 +261,7 @@
             </h4>
         </div>
 
-        <div class="container mt-6 ">
+         <div class="container mt-6 ">
             <div class="columns is-centered ">
                 <div class="column is-8 ">
 
@@ -274,10 +275,10 @@
                         <input class="input " type="email " placeholder="Your Heriot-Watt Email Address ">
                     </div>
 
-                    <!--<div class="field ">
+                    <!---<div class="field ">
                         <input class="input " type="tel " placeholder="Your Mobile Number ">
                     </div>-->
-                    
+
                     <div class="field is-expanded pb-2 ">
                         <label class="label ">Mobile no</label>
                         <div class="field has-addons ">
@@ -321,7 +322,7 @@
                         <div class="column is-2">
                             <div class="control has-text-centered">
                                 <button
-                                    class="button button-body is-fullwidth is-black is-medium px-6 is-rounded has-text-weight-bold">SUBMIT</button>
+                                    class="button button-body is-fullwidth is-black is-medium px-6 is-rounded has-text-weight-bold" type="submit">SUBMIT</button>
                             </div>
                         </div>
                     </div>

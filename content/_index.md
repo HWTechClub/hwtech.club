@@ -36,15 +36,15 @@ workshops:
 jtc:
     title: Join the Tech Club today!
     subtitle: Incase of any queries reach out to
-    mailing: as348@hw.ac.uk
+    mailing: contact@hwtech.club
     subjects:
         - val: AI
-        - val: App/Web/UI/UX Design 
-        - val: Back end Developer 
-        - val: Blockchain 
-        - val: Data Science 
-        - val: Deeper understanding of the linux kernel 
-        - val: Deeper understanding of the linux kernel 
+        - val: App/Web/UI/UX Design
+        - val: Back end Developer
+        - val: Blockchain
+        - val: Data Science
+        - val: Deeper understanding of the linux kernel
+        - val: Deeper understanding of the linux kernel
         - val: Distributed Systems
         - val: Game Developer
         - val: Machine learning
@@ -61,7 +61,7 @@ icons:
       link: https://www.instagram.com/hwtechclub/?hl=en
     - name: github
       link: https://github.com/hwtechclub
-        
+
 
 
 ---

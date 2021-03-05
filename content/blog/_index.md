@@ -17,7 +17,7 @@ cards:
       img: https://cdn-images-1.medium.com/max/3840/1*RmvcYMvi4YtXlJz-iXntTA.jpeg
       link: https://blogs.hwtech.club/post/flutter_responsive_code_structure/
       category: 1
-
+      
 footer:
     title: Share your ideas and experiences
     subtitle: Add your experiences and knowledge through a writing of your own on Snippets
@@ -25,4 +25,3 @@ footer:
     link: https://blogs.hwtech.club/admin
 
 ---
-
