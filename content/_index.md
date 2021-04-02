@@ -25,6 +25,7 @@ blogs:
     subtitle: Have a look at our blogs
     text: Blogs by students on experiences, advices & new technologies. Feel free to publish your own thoughts or experiences here!
     img: blog.png
+    link: https://blogs.hwtech.club
 
 workshops:
     title: Workshops 🧑‍🔧

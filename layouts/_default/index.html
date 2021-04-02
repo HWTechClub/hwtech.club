@@ -86,12 +86,12 @@
                             <a class="navbar-item" href="/">
                                 Home
                             </a>
-                            <a class="navbar-item" href="/blog">
+                            <a class="navbar-item" href="https://blogs.hwtech.club">
                                 Blog
                             </a>
-                            <a class="navbar-item" href="/workshop">
+                            <!--<a class="navbar-item" href="/workshop">
                                 Workshop
-                            </a>
+                            </a>-->
                             <a class="navbar-item" href="https://docs.hwtech.club">
                                 Documentation
                             </a>
@@ -113,13 +113,13 @@
                 </div>
             </nav>
         </div>
-        <div class="cut-shape">
+        <!--<div class="cut-shape">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path fill="#f5f5f5" fill-opacity="1"
                     d="M0,0L30,32C60,64,120,128,180,149.3C240,171,300,149,360,165.3C420,181,480,235,540,250.7C600,267,660,245,720,245.3C780,245,840,267,900,250.7C960,235,1020,181,1080,165.3C1140,149,1200,171,1260,160C1320,149,1380,107,1410,85.3L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
                 </path>
             </svg>
-        </div>
+        </div>-->
         <!-- Hero content: will be in the middle -->
         <div class="hero-body">
             <div class="container has-text-centered">
@@ -163,6 +163,7 @@
 
     <!-- What we do  -->
     <section class="section is-medium pt-0 pb-6">
+       <br>
         <div class="container">
             <div class="title-wrapper has-text-centered ">
                 <h2 class="title cus-title is-2 has-text-weight-bold has-shadow ">Things we do</h2>
@@ -204,7 +205,7 @@
                     </p>
                     <div class="block pt-5">
                         <a class="button button-body is-rounded is-success has-text-weight-bold hvr-float"
-                            href="/blog">Read blogs</a>
+                            href="{{ .Params.blogs.link}}">Read blogs</a>
                         <!--<a class="button button-body is-rounded is-white has-text-weight-bold hvr-float">Submit your own</a>-->
                     </div>
                 </div>
@@ -220,7 +221,7 @@
     </section>
 
     <!--  Latest Workshops  -->
-    <section class="section pt-0">
+    <!--<section class="section pt-0">
         <div class="container">
             <div class="columns is-gapless is-vcentered is-centered">
                 <div class="column is-5 hvr-float">
@@ -239,19 +240,19 @@
                     <div class="block pt-5">
                         <a class="button button-body is-rounded is-success has-text-weight-bold hvr-float" href="/workshop">View
                             workshops</a>
-                        <!-- <a class="button button-body is-rounded is-white has-text-weight-bold hvr-float">Submit your own</a> -->
+                        <!-- <a class="button button-body is-rounded is-white has-text-weight-bold hvr-float">Submit your own</a>
                     </div>
                 </div>
             </div>
 
         </div>
-    </section>
+    </section>-->
 
 
 
     <!-- Join the club  -->
     <form  name="contactForm" method="post" data-netlify="true" novalidate="novalidate">
-    <section class="section has-background-success " id="contact">
+    <section class="section " id="contact" style="background: black; background-blend-mode: soft-light;">
         <div class="container has-text-centered pt-4 ">
             <h2 class="title is-2 is-spaced has-text-weight-bold has-text-white ">{{ .Params.jtc.title}}</h2>
             <h4 class="subtitle has-text-white "> {{ .Params.jtc.subtitle}}
@@ -295,7 +296,7 @@
                             </p>
                         </div>
                         <p class="help is-white ">For example. +971 50-555-5555</p>
-                        <!-- <p class="help ">Do not enter the first zero</p> 
+                        <!-- <p class="help ">Do not enter the first zero</p>
                     </div>
 
                     <div class="field pt-2 ">
