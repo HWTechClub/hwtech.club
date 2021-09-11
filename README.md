@@ -1,5 +1,5 @@
 # Tech Club Website
-The main website of the tech club to inform people about various activities and missions of the club.
+The main website of the Tech Club to inform people about various activities and missions of the club.
 
 ## Description
 
@@ -8,10 +8,14 @@ Coding in HTML with the :crystal_ball: powers of [Bulma CSS](https://bulma.io).
 Please go through the [Bulma CSS documentation](https://bulma.io/documentation) to make sure you are following best code practices before adding or modifying the website code.
 
 ### Stage
-ALMOST THERE
+![90%](https://progress-bar.dev/90)
 
 ### Contributors
-Ashab, Akilan, Amogh Srivastava, Ramsha Khan and Harini Balamurugan. 
+- [Ashab](https://github.com/ashab272000)
+- [Akilan](https://github.com/Akilan1999)
+- [Amogh Srivastava](https://github.com/amoghsr)
+- [Ramsha Khan](https://github.com/rk-92)
+- [Harini Balamurugan](https://github.com/HariniBalamurugan)
 
 ## Useful links
 * VS Code Extension: [Bulma](https://marketplace.visualstudio.com/items?itemName=demijollamaxime.bulma) by Maxime de Mijolla.
