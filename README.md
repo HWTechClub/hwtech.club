@@ -1,7 +1,13 @@
 # Tech Club Website
 The main website of the Tech Club to inform people about various activities and missions of the club.
 
-## Description
+## Index
+- [Code](#code)
+- [Stage](#stage)
+- [Contributors](#contributors)
+- [Useful Links](#useful-links)
+
+---
 
 ### Code
 Coding in HTML with the :crystal_ball: powers of [Bulma CSS](https://bulma.io).
