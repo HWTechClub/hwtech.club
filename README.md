@@ -3,7 +3,7 @@
 # [Tech Club Website](https://hwtech.club)
 
 <img align="left" src="static\assets\CBLogo.png" width="20%">
-</div>
+
 The main website of the Tech Club to inform people<br>
 about various activities and missions of the club.
 <br>
@@ -17,6 +17,7 @@ about various activities and missions of the club.
 <a href="https://www.netlify.com/">
     <img alt="Netlify" title="Website Hosting" src="https://img.shields.io/badge/Netlify-informational?style=flat-sqaure&logo=netlify&logoColor=white&color=00C7B7">
 </a>
+</div>
 <br>
 <br>
 <br>
