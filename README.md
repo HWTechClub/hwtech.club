@@ -1,10 +1,27 @@
-# Tech Club Website
-The main website of the Tech Club to inform people about various activities and missions of the club.
-
 <div align="center">
 
-[Tech Club Website](https://hwtech.club)
+# [Tech Club Website](https://hwtech.club)
+
+<img align="left" src="static\assets\CBLogo.png" width="20%">
+
+The main website of the Tech Club to inform people<br>
+about various activities and missions of the club.
+<br>
+<br>
+<img alt="HTML" title="HyperText Markup Language" src="https://img.shields.io/badge/HTML-informational?style=flat-sqaure&logo=html5&logoColor=white&color=E34F26">
+<a href="https://bulma.io/documentation">
+    <img alt="Bulma CSS" title="Modern CSS Framework" src="https://img.shields.io/badge/Bulma%20CSS-informational?style=flat-sqaure&logo=bulma&logoColor=white&color=00D1B2">
+</a>
+<img alt="JS" title="JavaScript" src="https://img.shields.io/badge/JavaScript-informational?style=flat-sqaure&logo=javascript&logoColor=black&color=F7DF1E">
+<img alt="Markdown" title="Markup Language to format text" src="https://img.shields.io/badge/Markdown-informational?style=flat-sqaure&logo=markdown&logoColor=white&color=000000">
+<a href="https://www.netlify.com/">
+    <img alt="Netlify" title="Website Hosting" src="https://img.shields.io/badge/Netlify-informational?style=flat-sqaure&logo=netlify&logoColor=white&color=00C7B7">
+</a>
 </div>
+<br>
+<br>
+<br>
+<br>
 
 ## Index
 - [Code](#code)
