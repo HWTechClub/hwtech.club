@@ -2,7 +2,9 @@
 
 # [Tech Club Website](https://hwtech.club)
 
-<img align="left" src="static\assets\CBLogo.png" width="20%">
+<a href="https://hwtech.club">
+    <img align="left" src="static\assets\CBLogo.png" width="20%">
+</a>
 
 The main website of the Tech Club to inform people<br>
 about various activities and missions of the club.
